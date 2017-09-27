@@ -1,0 +1,148 @@
+---
+title: "Descriptive statistics"
+---
+
+```{r Global, echo=FALSE, message=FALSE, warning=FALSE}
+source("Global.R")
+```
+
+# {.tabset .tabset-pills}
+## Pathologic features {.tabset .tabset-pills}
+### Histologic subtype
+```{r subtype}
+x <- fct_infreq(DB$subtype)
+tbl_nice(x)
+g_nice(x)
+```
+
+### Histologic grade
+```{r grade}
+x <- DB$grade
+tbl_nice(x)
+g_nice(x)
+```
+
+## PD-L1 {.tabset .tabset-pills}
+### Tumor PD-L1+, %
+```{r pdl1_tumor}
+x <- DB$pdl1_tumor
+tbl_nice(x)
+g_nice(x)
+
+DF <- DB %>% 
+  mutate(
+    pdl1_tumor_positivity = factor(
+      ifelse(
+        pdl1_tumor == 0,
+        "No PD-L1 positivity",
+        "Any PD-L1 positivity"
+      )
+    )
+  )
+
+x <- DF$pdl1_tumor_positivity
+tbl_nice(x)
+g_nice(x)
+
+```
+
+### Tumor PD-L1+, H-score
+```{r pdl1_tumor_h}
+x <- DB$pdl1_tumor_h
+tbl_nice(x)
+g_nice(x)
+```
+
+### Tumor PD-L1+, location
+```{r pdl1_tumor_location}
+x <- DB$pdl1_tumor_location
+tbl_nice(x)
+g_nice(x)
+```
+
+### Stromal PD-L1+, %
+```{r pdl1_lymph}
+x <- DB$pdl1_lymph
+tbl_nice(x)
+g_nice(x)
+
+DF <- DB %>% 
+  mutate(
+    pdl1_lymph_positivity = factor(
+      ifelse(
+        pdl1_lymph == 0,
+        "No PD-L1 positivity",
+        "Any PD-L1 positivity"
+      )
+    )
+  )
+
+x <- DF$pdl1_lymph_positivity
+tbl_nice(x)
+g_nice(x)
+```
+
+### Host response
+```{r host_response}
+x <- DB$host_response
+tbl_nice(x)
+g_nice(x)
+```
+
+## FOXP3 {.tabset .tabset-pills}
+### Intratumor FOXP3+ lymphocytes, N
+```{r foxp3_lymph_tumor}
+x <- DB$foxp3_lymph_tumor
+tbl_nice(x)
+g_nice(x)
+```
+
+### Stromal FOXP3+ lymphocytes, N
+```{r foxp3_lymph_stroma}
+x <- DB$foxp3_lymph_stroma
+tbl_nice(x)
+g_nice(x)
+```
+
+### Tumor FOXP3+
+```{r foxp3_tumor}
+x <- DB$foxp3_tumor
+tbl_nice(x)
+g_nice(x)
+```
+
+## CD8/Ki-67 {.tabset .tabset-pills}
+### Intratumoral CD8+ lymphocytes, N
+```{r cd8_tumor}
+x <- DB$cd8_tumor
+tbl_nice(x)
+g_nice(x)
+```
+
+### Intratumoral CD8+/Ki-67+ lymphocytes, N
+```{r cd8ki67_tumor}
+x <- DB$cd8ki67_tumor
+tbl_nice(x)
+g_nice(x)
+```
+
+### Stromal CD8+ lymphocytes, N
+```{r cd8_stroma}
+x <- DB$cd8_stroma
+tbl_nice(x)
+g_nice(x)
+```
+
+### Stromal CD8+/Ki-67+ lymphocytes, N
+```{r cd8ki67_stroma}
+x <- DB$cd8ki67_stroma
+tbl_nice(x)
+g_nice(x)
+```
+
+### Ki-67+ tumor cells, N
+```{r ki67_tumor}
+x <- DB$ki67_tumor
+tbl_nice(x)
+g_nice(x)
+```

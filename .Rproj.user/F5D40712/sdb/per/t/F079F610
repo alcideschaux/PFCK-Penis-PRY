@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Descriptive statistics\"\n---\n\n```{r Global, echo=FALSE, message=FALSE, warning=FALSE}\nsource(\"Global.R\")\n```\n\n# {.tabset .tabset-pills}\n## Pathologic features {.tabset .tabset-pills}\n### Histologic subtype\n```{r subtype}\nx <- fct_infreq(DB$subtype)\ntbl_nice(x)\ng_nice(x)\n```\n\n### Histologic grade\n```{r grade}\nx <- DB$grade\ntbl_nice(x)\ng_nice(x)\n```\n\n## PD-L1 {.tabset .tabset-pills}\n### Tumor PD-L1+, %\n```{r pdl1_tumor}\nx <- DB$pdl1_tumor\ntbl_nice(x)\ng_nice(x)\n\nDF <- DB %>% \n  mutate(\n    pdl1_tumor_positivity = factor(\n      ifelse(\n        pdl1_tumor == 0,\n        \"No PD-L1 positivity\",\n        \"Any PD-L1 positivity\"\n      )\n    )\n  )\n\nx <- DF$pdl1_tumor_positivity\ntbl_nice(x)\ng_nice(x)\n\n```\n\n### Tumor PD-L1+, H-score\n```{r pdl1_tumor_h}\nx <- DB$pdl1_tumor_h\ntbl_nice(x)\ng_nice(x)\n```\n\n### Tumor PD-L1+, location\n```{r pdl1_tumor_location}\nx <- DB$pdl1_tumor_location\ntbl_nice(x)\ng_nice(x)\n```\n\n### Stromal PD-L1+, %\n```{r pdl1_lymph}\nx <- DB$pdl1_lymph\ntbl_nice(x)\ng_nice(x)\n\nDF <- DB %>% \n  mutate(\n    pdl1_lymph_positivity = factor(\n      ifelse(\n        pdl1_lymph == 0,\n        \"No PD-L1 positivity\",\n        \"Any PD-L1 positivity\"\n      )\n    )\n  )\n\nx <- DF$pdl1_lymph_positivity\ntbl_nice(x)\ng_nice(x)\n```\n\n### Host response\n```{r host_response}\nx <- DB$host_response\ntbl_nice(x)\ng_nice(x)\n```\n\n## FOXP3 {.tabset .tabset-pills}\n### Intratumor FOXP3+ lymphocytes, N\n```{r foxp3_lymph_tumor}\nx <- DB$foxp3_lymph_tumor\ntbl_nice(x)\ng_nice(x)\n```\n\n### Stromal FOXP3+ lymphocytes, N\n```{r foxp3_lymph_stroma}\nx <- DB$foxp3_lymph_stroma\ntbl_nice(x)\ng_nice(x)\n```\n\n### Tumor FOXP3+\n```{r foxp3_tumor}\nx <- DB$foxp3_tumor\ntbl_nice(x)\ng_nice(x)\n```\n\n## CD8/Ki-67 {.tabset .tabset-pills}\n### Intratumoral CD8+ lymphocytes, N\n```{r cd8_tumor}\nx <- DB$cd8_tumor\ntbl_nice(x)\ng_nice(x)\n```\n\n### Intratumoral CD8+/Ki-67+ lymphocytes, N\n```{r cd8ki67_tumor}\nx <- DB$cd8ki67_tumor\ntbl_nice(x)\ng_nice(x)\n```\n\n### Stromal CD8+ lymphocytes, N\n```{r cd8_stroma}\nx <- DB$cd8_stroma\ntbl_nice(x)\ng_nice(x)\n```\n\n### Stromal CD8+/Ki-67+ lymphocytes, N\n```{r cd8ki67_stroma}\nx <- DB$cd8ki67_stroma\ntbl_nice(x)\ng_nice(x)\n```\n\n### Ki-67+ tumor cells, N\n```{r ki67_tumor}\nx <- DB$ki67_tumor\ntbl_nice(x)\ng_nice(x)\n```\n",
+    "created" : 1506516541638.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1266982132",
+    "id" : "F079F610",
+    "lastKnownWriteTime" : 1506516788,
+    "last_content_update" : 1506516788647,
+    "path" : "~/Dropbox/Research/Projects_Analysis/UAB/PDL1_Penis/Report/descriptive.Rmd",
+    "project_path" : "descriptive.Rmd",
+    "properties" : {
+        "source_window_id" : "",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

@@ -1,0 +1,337 @@
+---
+title: "Association statistics"
+---
+
+```{r Global, echo=FALSE, message=FALSE, warning=FALSE}
+source("Global.R")
+```
+
+# {.tabset .tabset-pills}
+## Host response {.tabset .tabset-pills}
+### By histologic grade
+```{r host_response.grade}
+x <- DB$host_response
+y <- DB$grade
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_barplot(x, y)
+```
+
+
+## PD-L1 {.tabset .tabset-pills}
+### Tumor vs lymphocytes positivity
+```{r pdl1_tumor.pdl1_lymph}
+DF <- DB %>% 
+  select(pdl1_tumor, pdl1_lymph) %>% 
+  gather(tissue, value) %>% 
+  mutate(
+    tissue = fct_recode(
+      tissue,
+      "Tumor cells" = "pdl1_tumor",
+      "Lymphocytes" = "pdl1_lymph"
+    )
+  )
+
+x <- DF$value
+y <- DF$tissue
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_boxplot(x, y)
+```
+
+### Tumor positivity by grade
+```{r pdl1_tumor.grade}
+x <- DB$pdl1_tumor
+y <- DB$grade
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_boxplot(x, y)
+```
+
+### Positivity location by grade
+```{r pdl1_tumor_location.grade}
+x <- DB$pdl1_tumor_location
+y <- DB$grade
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_barplot(x, y)
+```
+
+### Tumor positivity by subtype
+```{r pdl1_tumor.subtype}
+x <- DB$pdl1_tumor
+y <- DB$subtype
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_boxplot(x, y)
+```
+
+### Positivity location by subtype
+```{r pdl1_tumor_location.subtype}
+x <- DB$pdl1_tumor_location
+y <- DB$subtype
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_barplot(x, y)
+```
+
+### Stromal positivity by grade
+```{r pdl1_lymph.grade}
+x <- DB$pdl1_lymph
+y <- DB$grade
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_boxplot(x, y)
+```
+
+### Stromal positivity by subtype
+```{r pdl1_lymph.subtype}
+x <- DB$pdl1_lymph
+y <- DB$subtype
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_boxplot(x, y)
+```
+
+## FOXP3 {.tabset .tabset-pills}
+### Intratumoral vs stromal lymphocytes
+```{r foxp3_lymph_tumor.foxp3_lymph_stroma}
+DF <- DB %>% 
+  select(foxp3_lymph_tumor, foxp3_lymph_stroma) %>% 
+  gather(tissue, value) %>% 
+  mutate(
+    tissue = fct_recode(
+      tissue,
+      "Intratumoral lymphocytes" = "foxp3_lymph_tumor",
+      "Stromal lymphocytes" = "foxp3_lymph_stroma"
+    )
+  )
+
+x <- DF$value
+y <- DF$tissue
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_boxplot(x, y)
+```
+
+### Intratumoral lymphocytes by grade
+```{r foxp3_lymph_tumor.grade}
+x <- DB$foxp3_lymph_tumor
+y <- DB$grade
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_boxplot(x, y)
+```
+
+### Stromal lymphocytes by grade
+```{r foxp3_lymph_stroma.grade}
+x <- DB$foxp3_lymph_stroma
+y <- DB$grade
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_boxplot(x, y)
+```
+
+### Intratumoral lymphocytes by subtype
+```{r foxp3_lymph_tumor.subtype}
+x <- DB$foxp3_lymph_tumor
+y <- DB$subtype
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_boxplot(x, y)
+```
+
+### Stromal lymphocytes by subtype
+```{r foxp3_lymph_stroma.subtype}
+x <- DB$foxp3_lymph_stroma
+y <- DB$subtype
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_boxplot(x, y)
+```
+
+### Tumor cells by grade
+```{r foxp3_tumor.grade}
+x <- DB$foxp3_tumor
+y <- DB$grade
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_boxplot(x, y)
+```
+
+### Tumor cells by subtype
+```{r foxp3_tumor.subtype}
+x <- DB$foxp3_tumor
+y <- DB$subtype
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_boxplot(x, y)
+```
+
+## CD8/Ki-67 {.tabset .tabset-pills}
+### Intratumoral vs stromal CD8+ lymphocytes
+```{r cd8_tumor.cd8_stroma}
+DF <- DB %>% 
+  select(cd8_tumor, cd8_stroma) %>% 
+  gather(tissue, value) %>% 
+  mutate(
+    tissue = fct_recode(
+      tissue,
+      "Intratumoral lymphocytes" = "cd8_tumor",
+      "Stromal lymphocytes" = "cd8_stroma"
+    )
+  )
+
+x <- DF$value
+y <- DF$tissue
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_boxplot(x, y)
+```
+
+### Intratumoral vs stromal CD8+/Ki-67 lymphocytes
+```{r cd8ki67_tumor.cd8ki67_stroma}
+DF <- DB %>% 
+  select(cd8ki67_tumor, cd8ki67_stroma) %>% 
+  gather(tissue, value) %>% 
+  mutate(
+    tissue = fct_recode(
+      tissue,
+      "Intratumoral lymphocytes" = "cd8ki67_tumor",
+      "Stromal lymphocytes" = "cd8ki67_stroma"
+    )
+  )
+
+x <- DF$value
+y <- DF$tissue
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_boxplot(x, y)
+```
+
+### Intratumoral CD8+ by grade
+```{r cd8_tumor.grade}
+x <- DB$cd8_tumor
+y <- DB$grade
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_boxplot(x, y)
+```
+
+### Intratumoral CD8+ by subtype
+```{r cd8_tumor.subtype}
+x <- DB$cd8_tumor
+y <- DB$subtype
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_boxplot(x, y)
+```
+
+### Intratumoral CD8+/Ki-67+ by grade
+```{r cd8ki67_tumor.grade}
+x <- DB$cd8ki67_tumor
+y <- DB$grade
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_boxplot(x, y)
+```
+
+### Intratumoral CD8+/Ki-67+ by subtype
+```{r cd8ki67_tumor.subtype}
+x <- DB$cd8ki67_tumor
+y <- DB$subtype
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_boxplot(x, y)
+```
+
+### Stromal CD8+ by grade
+```{r cd8_stroma.grade}
+x <- DB$cd8_stroma
+y <- DB$grade
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_boxplot(x, y)
+```
+
+### Stromal CD8+ by subtype
+```{r cd8_stroma.subtype}
+x <- DB$cd8_stroma
+y <- DB$subtype
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_boxplot(x, y)
+```
+
+### Stromal CD8+/Ki-67+ by grade
+```{r cd8ki67_stroma.grade}
+x <- DB$cd8ki67_stroma
+y <- DB$grade
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_boxplot(x, y)
+```
+
+### Stromal CD8+/Ki-67+ by subtype
+```{r cd8ki67_stroma.subtype}
+x <- DB$cd8ki67_stroma
+y <- DB$subtype
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_boxplot(x, y)
+```
+
+### Tumor Ki-67+ by grade
+```{r ki67_tumor.grade}
+x <- DB$ki67_tumor
+y <- DB$grade
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_boxplot(x, y)
+```
+
+### Tumor Ki-67+ by subtype
+```{r ki67_tumor.subtype}
+x <- DB$ki67_tumor
+y <- DB$subtype
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_boxplot(x, y)
+```
+
+## CD8-to-FOXP3 {.tabset .tabset-pills}
+### Intratumoral by grade
+```{r cd8foxp3_tumor.grade}
+x <- DB$cd8foxp3_tumor
+y <- DB$grade
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_barplot(x, y)
+```
+
+### Intratumoral by subtype
+```{r cd8foxp3_tumor.subtype}
+x <- DB$cd8foxp3_tumor
+y <- DB$subtype
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_barplot(x, y)
+```
+
+### Stromal by grade
+```{r cd8foxp3_stroma.grade}
+x <- DB$cd8foxp3_stroma
+y <- DB$grade
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_barplot(x, y)
+```
+
+### Stromal by subtype
+```{r cd8foxp3_stroma.subtype}
+x <- DB$cd8foxp3_stroma
+y <- DB$subtype
+tbl_nice(x, y)
+tbl_test(x, y)
+g2_barplot(x, y)
+```
