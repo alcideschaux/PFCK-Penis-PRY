@@ -1,0 +1,529 @@
+x;y;sp;tma;subtype;grade;pdl1_tumor;pdl1_tumor_location;pdl1_tumor_h;pdl1_lymph;host_response;foxp3_lymph_tumor;foxp3_lymph_stroma;foxp3_lymph_intensity;foxp3_tumor;foxp3_tumor_intensity;cd8_tumor;cd8ki67_tumor;cd8_stroma;cd8ki67_stroma;ki67_tumor;cd8foxp3_tumor;cd8foxp3_stroma
+1;1;S06-01500;852;Warty;Grade 3;1;Cytoplasmic/Membraneous;1;5;Lymphoid aggregates;0;8;Strong staining;20;Moderate staining;0;0;15;0;5;CD8 <= FOXP3;CD8 > FOXP3
+2;1;S06-01500;852;Warty;Grade 3;30;Cytoplasmic/Membraneous;35;0;Rare inflammatory cells;0;2;Strong staining;7;Weak staining;0;0;0;0;1;CD8 <= FOXP3;CD8 <= FOXP3
+3;1;S06-01500;852;Warty;Grade 3;5;Cytoplasmic/Membraneous;5;5;Rare inflammatory cells;3;0;No staining;5;Weak staining;0;0;0;0;1;CD8 <= FOXP3;CD8 <= FOXP3
+5;1;S03-06011;852;Warty-Basaloid;Grade 3;2;Cytoplasmic/Membraneous;2;6;Lymphoid aggregates;11;32;Strong staining;0;No staining;37;0;33;0;1;CD8 > FOXP3;CD8 > FOXP3
+6;1;S03-06011;852;Warty-Basaloid;Grade 3;5;Cytoplasmic/Membraneous;5;2;Lymphoid aggregates;6;50;Strong staining;0;No staining;24;0;50;0;1;CD8 > FOXP3;CD8 <= FOXP3
+7;1;S03-06011;852;Warty-Basaloid;Grade 3;3;Cytoplasmic/Membraneous;3;1;Lymphoid aggregates;4;40;Strong staining;0;No staining;13;0;76;0;1;CD8 > FOXP3;CD8 > FOXP3
+9;1;S04-00345;852;Usual;Grade 2;0;NA;0;10;Intense inflammation;1;65;Moderate staining;0;No staining;0;0;39;0;1;CD8 <= FOXP3;CD8 <= FOXP3
+10;1;S04-00345;852;Usual;Grade 2;0;NA;0;5;Lymphoid aggregates;2;70;Strong staining;0;No staining;0;0;7;0;1;CD8 <= FOXP3;CD8 <= FOXP3
+11;1;S04-00345;852;Usual;Grade 2;0;NA;0;2;Lymphoid aggregates;2;66;Strong staining;0;No staining;0;0;22;0;1;CD8 <= FOXP3;CD8 <= FOXP3
+13;1;S06-01335;852;Usual;Grade 3;50;Cytoplasmic/Membraneous;55;10;Lymphoid aggregates;43;16;No staining;0;No staining;32;0;0;0;0;CD8 <= FOXP3;CD8 <= FOXP3
+14;1;S06-01335;852;Usual;Grade 3;95;Cytoplasmic/Membraneous;135;5;Lymphoid aggregates;40;74;Strong staining;0;No staining;13;0;30;0;0;CD8 <= FOXP3;CD8 <= FOXP3
+15;1;S06-01335;852;Usual;Grade 3;35;Cytoplasmic/Membraneous;40;15;Intense inflammation;47;80;Strong staining;0;No staining;28;0;29;0;0;CD8 <= FOXP3;CD8 <= FOXP3
+5;2;S03-02565;852;Warty-Basaloid;Grade 3;3;Cytoplasmic/Membraneous;3;2;Rare inflammatory cells;2;8;Strong staining;0;No staining;3;0;9;0;0;CD8 > FOXP3;CD8 > FOXP3
+6;2;S03-02565;852;Warty-Basaloid;Grade 3;0;NA;0;0;Lymphoid aggregates;1;8;Strong staining;1;Weak staining;4;0;0;0;0;CD8 > FOXP3;CD8 <= FOXP3
+7;2;S03-02565;852;Warty-Basaloid;Grade 3;3;Cytoplasmic/Membraneous;3;0;Lymphoid aggregates;1;0;Strong staining;1;Weak staining;5;0;10;0;0;CD8 > FOXP3;CD8 > FOXP3
+9;2;S09-01998;852;Usual;Grade 2;30;Cytoplasmic/Membraneous;45;15;Intense inflammation;1;57;Strong staining;0;No staining;0;0;59;0;1;CD8 <= FOXP3;CD8 > FOXP3
+10;2;S09-01998;852;Usual;Grade 3;45;Cytoplasmic/Membraneous;80;15;Intense inflammation;2;74;Strong staining;0;No staining;0;0;48;0;1;CD8 <= FOXP3;CD8 <= FOXP3
+11;2;S09-01998;852;Usual;Grade 2;20;Cytoplasmic/Membraneous;20;15;Intense inflammation;3;58;Strong staining;0;No staining;0;0;69;0;0;CD8 <= FOXP3;CD8 > FOXP3
+13;2;S99-03125;852;Usual;Grade 2;0;NA;0;0;Lymphoid aggregates;18;15;Strong staining;0;No staining;29;0;10;0;0;CD8 > FOXP3;CD8 <= FOXP3
+14;2;S99-03125;852;Usual;Grade 2;0;NA;0;5;Lymphoid aggregates;26;57;Strong staining;0;No staining;25;0;56;0;0;CD8 <= FOXP3;CD8 <= FOXP3
+15;2;S99-03125;852;Usual;Grade 2;1;Cytoplasmic/Membraneous;1;0;Lymphoid aggregates;4;64;Strong staining;0;No staining;4;0;14;0;0;CD8 <= FOXP3;CD8 <= FOXP3
+1;3;S07-01439;852;Basaloid;Grade 3;0;NA;0;0;Rare inflammatory cells;3;14;Strong staining;0;No staining;5;0;18;0;0;CD8 > FOXP3;CD8 > FOXP3
+2;3;S07-01439;852;Basaloid;NA;NA;NA;NA;NA;NA;4;38;Strong staining;0;No staining;NA;NA;22;0;0;NA;CD8 <= FOXP3
+3;3;S07-01439;852;Basaloid;Grade 3;0;NA;0;NA;No inflammatory cells;5;29;Strong staining;0;No staining;0;0;19;0;0;CD8 <= FOXP3;CD8 <= FOXP3
+5;3;S01-01828;852;Usual;Grade 3;70;Cytoplasmic/Membraneous;100;2;Lymphoid aggregates;12;80;Strong staining;0;No staining;62;1;27;2;50;CD8 > FOXP3;CD8 <= FOXP3
+6;3;S01-01828;852;Usual;Grade 3;70;Cytoplasmic/Membraneous;99;5;Lymphoid aggregates;12;110;Strong staining;0;No staining;4;0;47;0;50;CD8 <= FOXP3;CD8 <= FOXP3
+7;3;S01-01828;852;Usual;Grade 2;75;Cytoplasmic/Membraneous;91;5;Intense inflammation;2;72;Strong staining;0;No staining;11;0;53;0;30;CD8 > FOXP3;CD8 <= FOXP3
+9;3;S01-05255;852;Usual;Grade 2;0;NA;0;20;Rare inflammatory cells;7;38;Strong staining;0;No staining;0;0;0;0;20;CD8 <= FOXP3;CD8 <= FOXP3
+10;3;S01-05255;852;Usual;Grade 2;40;Cytoplasmic/Membraneous;60;5;Rare inflammatory cells;4;13;Strong staining;0;No staining;2;0;8;0;1;CD8 <= FOXP3;CD8 <= FOXP3
+11;3;S01-05255;852;Usual;Grade 2;2;Cytoplasmic/Membraneous;2;20;Rare inflammatory cells;5;17;Strong staining;0;No staining;0;0;0;0;5;CD8 <= FOXP3;CD8 <= FOXP3
+13;3;S09-04993;852;Warty-Basaloid;Grade 3;20;Cytoplasmic/Membraneous;26;5;Lymphoid aggregates;25;16;Strong staining;0;No staining;25;0;39;0;0;CD8 <= FOXP3;CD8 > FOXP3
+14;3;S09-04993;852;Warty-Basaloid;Grade 3;25;Cytoplasmic/Membraneous;40;5;Lymphoid aggregates;54;32;Strong staining;0;No staining;16;0;0;0;1;CD8 <= FOXP3;CD8 <= FOXP3
+15;3;S09-04993;852;Warty-Basaloid;Grade 3;15;Cytoplasmic/Membraneous;21;20;Lymphoid aggregates;43;12;Strong staining;0;No staining;10;0;40;0;0;CD8 <= FOXP3;CD8 > FOXP3
+1;4;S03-00914;852;Warty-Basaloid;Grade 2;20;Cytoplasmic/Membraneous;27;0;Lymphoid aggregates;4;13;Strong staining;6;Weak staining;20;0;4;0;0;CD8 > FOXP3;CD8 <= FOXP3
+2;4;S03-00914;852;Warty-Basaloid;Grade 2;40;Cytoplasmic/Membraneous;50;5;Intense inflammation;2;38;Strong staining;0;No staining;16;0;73;0;0;CD8 > FOXP3;CD8 > FOXP3
+3;4;S03-00914;852;Warty-Basaloid;Grade 2;60;Cytoplasmic/Membraneous;70;0;Intense inflammation;5;27;Strong staining;3;Weak staining;11;0;30;0;0;CD8 > FOXP3;CD8 > FOXP3
+5;4;S03-02905;852;Warty-Basaloid;Grade 2;2;Cytoplasmic/Membraneous;2;15;Intense inflammation;1;92;Strong staining;0;No staining;0;0;87;0;1;CD8 <= FOXP3;CD8 <= FOXP3
+6;4;S03-02905;852;Warty-Basaloid;Grade 2;3;Cytoplasmic/Membraneous;3;20;Intense inflammation;0;118;Strong staining;0;No staining;0;0;70;0;1;CD8 <= FOXP3;CD8 <= FOXP3
+7;4;S03-02905;852;Warty-Basaloid;Grade 2;NA;NA;NA;NA;NA;2;95;Strong staining;0;No staining;0;0;46;0;0;CD8 <= FOXP3;CD8 <= FOXP3
+9;4;S03-04833;852;Usual;Grade 1;2;Cytoplasmic/Membraneous;2;5;Lymphoid aggregates;2;15;Strong staining;0;No staining;0;0;18;0;1;CD8 <= FOXP3;CD8 > FOXP3
+10;4;S03-04833;852;Usual;Grade 1;0;NA;0;2;Lymphoid aggregates;5;16;Strong staining;0;No staining;5;0;19;0;0;CD8 <= FOXP3;CD8 > FOXP3
+11;4;S03-04833;852;Usual;Grade 1;2;Cytoplasmic/Membraneous;2;5;Lymphoid aggregates;5;32;Strong staining;0;No staining;9;0;32;0;0;CD8 > FOXP3;CD8 <= FOXP3
+13;4;S01-05254;852;Usual;Grade 3;20;Cytoplasmic/Membraneous;25;20;Intense inflammation;6;145;Strong staining;0;No staining;10;0;65;0;20;CD8 > FOXP3;CD8 <= FOXP3
+14;4;S01-05254;852;Usual;Grade 3;10;Cytoplasmic/Membraneous;10;20;Intense inflammation;12;139;Strong staining;0;No staining;6;0;55;0;10;CD8 <= FOXP3;CD8 <= FOXP3
+15;4;S01-05254;852;Usual;Grade 2;5;Cytoplasmic/Membraneous;5;15;Lymphoid aggregates;13;50;Strong staining;0;No staining;9;0;16;0;10;CD8 <= FOXP3;CD8 <= FOXP3
+1;5;S04-05349;852;Basaloid;Grade 3;0;NA;0;0;Rare inflammatory cells;1;22;Strong staining;0;No staining;0;0;12;0;90;CD8 <= FOXP3;CD8 <= FOXP3
+2;5;S04-05349;852;Basaloid;Grade 3;0;NA;0;0;Rare inflammatory cells;0;16;Strong staining;0;No staining;0;0;10;0;60;CD8 <= FOXP3;CD8 <= FOXP3
+3;5;S04-05349;852;Basaloid;Grade 3;0;NA;0;0;Rare inflammatory cells;2;10;Strong staining;0;No staining;10;0;9;0;60;CD8 > FOXP3;CD8 <= FOXP3
+5;5;S06-01335;852;Usual;Grade 2;80;Cytoplasmic/Membraneous;90;30;Rare inflammatory cells;7;23;Strong staining;0;No staining;3;1;6;0;5;CD8 <= FOXP3;CD8 <= FOXP3
+6;5;S06-01335;852;Usual;Grade 3;70;Cytoplasmic/Membraneous;87;20;Rare inflammatory cells;8;47;Strong staining;0;No staining;13;0;5;0;5;CD8 > FOXP3;CD8 <= FOXP3
+7;5;S06-01335;852;Usual;Grade 3;95;Cytoplasmic/Membraneous;150;70;Rare inflammatory cells;16;39;Strong staining;0;No staining;3;0;7;0;5;CD8 <= FOXP3;CD8 <= FOXP3
+13;5;S03-02566;852;Warty-Basaloid;Grade 3;5;Cytoplasmic/Membraneous;5;5;Lymphoid aggregates;0;25;Strong staining;0;No staining;6;0;28;0;0;CD8 > FOXP3;CD8 > FOXP3
+14;5;S03-02566;852;Warty-Basaloid;Grade 3;10;Cytoplasmic/Membraneous;13;5;Lymphoid aggregates;0;0;No staining;0;No staining;5;0;0;0;0;CD8 > FOXP3;CD8 <= FOXP3
+15;5;S03-02566;852;Warty-Basaloid;Grade 3;15;Cytoplasmic/Membraneous;15;5;Lymphoid aggregates;0;40;Strong staining;0;No staining;10;0;21;0;0;CD8 > FOXP3;CD8 <= FOXP3
+1;6;S03-02905;852;Warty-Basaloid;Grade 3;3;Cytoplasmic/Membraneous;3;7;Intense inflammation;14;122;Strong staining;0;No staining;14;0;96;0;0;CD8 <= FOXP3;CD8 <= FOXP3
+2;6;S03-02905;852;Warty-Basaloid;Grade 3;0;NA;0;2;Intense inflammation;20;79;Strong staining;1;Weak staining;3;0;68;0;1;CD8 <= FOXP3;CD8 <= FOXP3
+3;6;S03-02905;852;Warty-Basaloid;Grade 3;1;Cytoplasmic/Membraneous;1;2;Intense inflammation;23;62;Strong staining;6;Moderate staining;21;0;74;0;0;CD8 <= FOXP3;CD8 > FOXP3
+5;6;S04-05349;852;Basaloid;Grade 3;0;NA;0;2;Rare inflammatory cells;1;5;Strong staining;5;Weak staining;0;0;4;1;20;CD8 <= FOXP3;CD8 <= FOXP3
+6;6;S04-05349;852;Basaloid;Grade 3;0;NA;0;0;Lymphoid aggregates;0;8;Strong staining;5;Weak staining;1;0;0;0;20;CD8 > FOXP3;CD8 <= FOXP3
+7;6;S04-05349;852;Basaloid;Grade 3;0;NA;0;5;Intense inflammation;18;65;Strong staining;3;Weak staining;0;0;63;0;0;CD8 <= FOXP3;CD8 <= FOXP3
+9;6;S08-05730;852;Usual;Grade 2;100;Cytoplasmic/Membraneous;170;5;Lymphoid aggregates;2;34;Strong staining;0;No staining;41;0;29;0;5;CD8 > FOXP3;CD8 <= FOXP3
+10;6;S08-05730;852;Usual;Grade 2;95;Cytoplasmic/Membraneous;190;5;Lymphoid aggregates;3;18;Strong staining;0;No staining;35;1;30;0;20;CD8 > FOXP3;CD8 > FOXP3
+11;6;S08-05730;852;Usual;Grade 3;100;Cytoplasmic/Membraneous;150;10;Rare inflammatory cells;11;33;Strong staining;0;No staining;46;2;22;0;20;CD8 > FOXP3;CD8 <= FOXP3
+13;6;S01-05001;852;Warty-Basaloid;Grade 2;10;Cytoplasmic/Membraneous;15;1;Rare inflammatory cells;3;50;Strong staining;0;No staining;5;0;15;0;5;CD8 > FOXP3;CD8 <= FOXP3
+14;6;S01-05001;852;Warty-Basaloid;Grade 3;1;Cytoplasmic/Membraneous;1;1;Rare inflammatory cells;0;3;Strong staining;0;No staining;0;0;7;0;5;CD8 <= FOXP3;CD8 > FOXP3
+15;6;S01-05001;852;Warty-Basaloid;Grade 3;1;Cytoplasmic/Membraneous;1;1;Rare inflammatory cells;4;23;Strong staining;0;No staining;0;0;20;0;1;CD8 <= FOXP3;CD8 <= FOXP3
+1;7;S09-00906;852;Usual;Grade 2;95;Cytoplasmic/Membraneous;175;5;Intense inflammation;0;125;Strong staining;0;No staining;36;0;64;0;1;CD8 > FOXP3;CD8 <= FOXP3
+2;7;S09-00906;852;Usual;Grade 2;95;Cytoplasmic/Membraneous;175;5;Intense inflammation;2;105;Strong staining;0;No staining;32;1;61;0;1;CD8 > FOXP3;CD8 <= FOXP3
+3;7;S09-00906;852;Usual;Grade 2;100;Cytoplasmic/Membraneous;120;10;Lymphoid aggregates;NA;NA;NA;NA;NA;43;0;74;0;1;NA;NA
+5;7;S03-02565;852;Warty-Basaloid;Grade 3;5;Cytplasmic;5;1;Rare inflammatory cells;0;7;Strong staining;0;No staining;8;0;5;0;0;CD8 > FOXP3;CD8 <= FOXP3
+6;7;S03-02565;852;Warty-Basaloid;Grade 3;5;Cytplasmic;5;0;Rare inflammatory cells;1;4;Strong staining;0;No staining;3;0;2;0;0;CD8 > FOXP3;CD8 <= FOXP3
+7;7;S03-02565;852;Warty-Basaloid;Grade 3;0;NA;0;0;Rare inflammatory cells;0;0;No staining;0;No staining;0;0;0;0;0;CD8 <= FOXP3;CD8 <= FOXP3
+9;7;S09-04476;852;Usual;Grade 2;30;Cytplasmic;30;5;Rare inflammatory cells;43;55;Strong staining;0;No staining;6;6;16;0;10;CD8 <= FOXP3;CD8 <= FOXP3
+10;7;S09-04476;852;Usual;Grade 1;20;Cytoplasmic/Membraneous;20;0;Rare inflammatory cells;6;57;Strong staining;0;No staining;7;0;22;0;5;CD8 > FOXP3;CD8 <= FOXP3
+11;7;S09-04476;852;Usual;Grade 2;30;Cytoplasmic/Membraneous;30;5;Lymphoid aggregates;34;71;Strong staining;0;No staining;9;5;44;0;10;CD8 <= FOXP3;CD8 <= FOXP3
+13;7;S09-01824;852;Usual;Grade 1;90;Cytoplasmic/Membraneous;140;20;Intense inflammation;28;104;Strong staining;0;No staining;30;0;26;0;1;CD8 > FOXP3;CD8 <= FOXP3
+14;7;S09-01824;852;Usual;Grade 1;80;Cytoplasmic/Membraneous;140;40;Intense inflammation;24;106;Strong staining;0;No staining;21;0;95;0;0;CD8 <= FOXP3;CD8 <= FOXP3
+15;7;S09-01824;852;Usual;Grade 1;80;Cytoplasmic/Membraneous;160;20;Intense inflammation;39;77;Strong staining;0;No staining;46;0;68;0;0;CD8 > FOXP3;CD8 <= FOXP3
+1;8;S06-00506;852;Warty-Basaloid;Grade 2;30;Cytoplasmic/Membraneous;35;2;Intense inflammation;12;81;Strong staining;0;No staining;1;0;80;0;80;CD8 <= FOXP3;CD8 <= FOXP3
+2;8;S06-00506;852;Warty-Basaloid;Grade 2;10;Cytoplasmic/Membraneous;10;0;Lymphoid aggregates;0;0;No staining;0;No staining;0;0;0;0;40;CD8 <= FOXP3;CD8 <= FOXP3
+3;8;S06-00506;852;Warty-Basaloid;Grade 3;30;Cytoplasmic/Membraneous;35;30;Intense inflammation;56;133;Strong staining;0;No staining;5;0;43;0;80;CD8 <= FOXP3;CD8 <= FOXP3
+5;8;S07-07866;852;Usual;Grade 1;5;Cytplasmic;5;30;Intense inflammation;NA;NA;NA;NA;NA;0;0;55;0;0;NA;NA
+6;8;S07-07866;852;Usual;Grade 1;5;Cytplasmic;5;0;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;0;0;1;NA;NA
+7;8;S07-07866;852;Usual;Grade 2;10;Cytplasmic;10;0;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;2;0;1;NA;NA
+9;8;S11-03382;852;Basaloid;Grade 3;40;Cytoplasmic/Membraneous;45;30;Lymphoid aggregates;NA;NA;NA;NA;NA;6;2;19;0;10;NA;NA
+10;8;S11-03382;852;Basaloid;Grade 3;40;Cytoplasmic/Membraneous;40;20;Intense inflammation;NA;NA;NA;NA;NA;9;0;49;0;5;NA;NA
+11;8;S11-03382;852;Basaloid;Grade 3;30;Cytoplasmic/Membraneous;30;20;Lymphoid aggregates;NA;NA;NA;NA;NA;11;0;52;0;5;NA;NA
+13;8;S03-04184;852;Warty-Basaloid;Grade 3;80;Cytoplasmic/Membraneous;90;5;Intense inflammation;NA;NA;NA;NA;NA;24;0;30;0;1;NA;NA
+14;8;S03-04184;852;Warty-Basaloid;Grade 3;95;Cytoplasmic/Membraneous;130;10;Intense inflammation;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+15;8;S03-04184;852;Warty-Basaloid;Grade 2;80;Cytoplasmic/Membraneous;80;20;Intense inflammation;NA;NA;NA;NA;NA;47;0;56;0;0;NA;NA
+1;9;S01-01828;852;Usual;Grade 3;10;Cytplasmic;10;2;Lymphoid aggregates;NA;NA;NA;NA;NA;11;0;63;0;10;NA;NA
+2;9;S01-01828;852;Usual;Grade 3;60;Cytoplasmic/Membraneous;72;1;Rare inflammatory cells;NA;NA;NA;NA;NA;32;1;15;0;50;NA;NA
+3;9;S01-01828;852;Usual;Grade 3;40;Cytoplasmic/Membraneous;45;1;Lymphoid aggregates;NA;NA;NA;NA;NA;6;0;57;0;30;NA;NA
+5;9;S03-00914;852;Warty-Basaloid;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+6;9;S03-00914;852;Warty-Basaloid;NA;0;NA;0;0;Lymphoid aggregates;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+7;9;S03-00914;852;Warty-Basaloid;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+1;10;S09-01998;852;Usual;Grade 2;30;Cytoplasmic/Membraneous;35;20;Intense inflammation;NA;NA;NA;NA;NA;0;0;22;3;5;NA;NA
+2;10;S09-01998;852;Usual;Grade 2;20;Cytoplasmic/Membraneous;20;20;Intense inflammation;NA;NA;NA;NA;NA;30;0;32;0;0;NA;NA
+3;10;S09-01998;852;Usual;Grade 2;20;Cytoplasmic/Membraneous;22;10;Intense inflammation;NA;NA;NA;NA;NA;20;0;64;0;0;NA;NA
+5;10;S03-03454;852;Warty;Grade 2;1;Cytplasmic;1;NA;Rare inflammatory cells;NA;NA;NA;NA;NA;2;0;12;0;1;NA;NA
+6;10;S03-03454;852;Warty;Grade 2;1;Cytplasmic;1;1;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;64;0;1;NA;NA
+7;10;S03-03454;852;Warty;Grade 2;1;Cytplasmic;1;1;Rare inflammatory cells;NA;NA;NA;NA;NA;3;0;18;0;0;NA;NA
+9;10;S03-01811;852;Papillary;Grade 1;2;Cytplasmic;2;5;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;44;0;0;NA;NA
+10;10;S03-01811;852;Papillary;Grade 1;2;Cytplasmic;2;NA;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+11;10;S03-01811;852;Papillary;Grade 1;1;Cytplasmic;1;NA;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;4;0;0;NA;NA
+13;10;S07-11119;852;Usual;Grade 2;5;Cytoplasmic/Membraneous;5;60;Intense inflammation;NA;NA;NA;NA;NA;0;0;35;0;0;NA;NA
+14;10;S07-11119;852;Usual;Grade 1;10;Cytoplasmic/Membraneous;10;60;Intense inflammation;NA;NA;NA;NA;NA;0;0;56;0;0;NA;NA
+15;10;S07-11119;852;Usual;Grade 1;5;Cytoplasmic/Membraneous;6;30;Intense inflammation;NA;NA;NA;NA;NA;0;0;60;0;0;NA;NA
+1;11;S02-05367;852;Warty-Basaloid;Grade 3;30;Cytoplasmic/Membraneous;45;0;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;9;0;0;NA;NA
+2;11;S02-05367;852;Warty-Basaloid;Grade 2;10;Cytoplasmic/Membraneous;14;0;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;26;0;0;NA;NA
+3;11;S02-05367;852;Warty-Basaloid;Grade 3;10;Cytplasmic;10;0;Rare inflammatory cells;NA;NA;NA;NA;NA;7;0;4;0;0;NA;NA
+5;11;S03-03454;852;Warty;Grade 2;1;Cytplasmic;1;0;Rare inflammatory cells;NA;NA;NA;NA;NA;4;0;0;0;0;NA;NA
+6;11;S03-03454;852;Warty;Grade 2;2;Cytplasmic;2;1;Intense inflammation;NA;NA;NA;NA;NA;3;0;0;0;0;NA;NA
+7;11;S03-03454;852;Warty;Grade 3;0;NA;0;0;Intense inflammation;NA;NA;NA;NA;NA;6;0;0;0;0;NA;NA
+9;11;S05-05154;852;Usual;Grade 3;0;NA;0;0;Lymphoid aggregates;NA;NA;NA;NA;NA;16;0;4;0;0;NA;NA
+10;11;S05-05154;852;Usual;Grade 3;1;Cytplasmic;1;5;Lymphoid aggregates;NA;NA;NA;NA;NA;38;0;0;0;0;NA;NA
+11;11;S05-05154;852;Usual;Grade 3;0;NA;0;0;Rare inflammatory cells;NA;NA;NA;NA;NA;18;0;0;0;0;NA;NA
+13;11;S09-06068;852;Usual;Grade 2;20;Cytoplasmic/Membraneous;22;2;Rare inflammatory cells;NA;NA;NA;NA;NA;8;0;4;0;0;NA;NA
+14;11;S09-06068;852;Usual;Grade 2;90;Cytoplasmic/Membraneous;120;0;Rare inflammatory cells;NA;NA;NA;NA;NA;27;0;0;0;0;NA;NA
+15;11;S09-06068;852;Usual;Grade 2;50;Cytoplasmic/Membraneous;70;0;Rare inflammatory cells;NA;NA;NA;NA;NA;17;0;0;0;0;NA;NA
+1;12;S03-02905;852;Warty-Basaloid;Grade 2;0;NA;0;2;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;3;0;1;NA;NA
+2;12;S03-02905;852;Warty-Basaloid;Grade 2;2;Cytplasmic;2;2;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;12;0;5;NA;NA
+3;12;S03-02905;852;Warty-Basaloid;Grade 2;2;Cytplasmic;2;2;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;2;0;5;NA;NA
+5;12;S04-01617;852;Usual;Grade 1;5;Cytplasmic;5;1;Intense inflammation;NA;NA;NA;NA;NA;3;0;30;0;0;NA;NA
+6;12;S04-01617;852;Usual;Grade 1;2;Cytplasmic;2;2;Intense inflammation;NA;NA;NA;NA;NA;14;0;30;0;0;NA;NA
+7;12;S04-01617;852;Usual;Grade 1;0;NA;0;1;Intense inflammation;NA;NA;NA;NA;NA;10;0;12;0;0;NA;NA
+9;12;S09-06068;852;Usual;Grade 2;100;Cytoplasmic/Membraneous;130;1;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;4;0;0;NA;NA
+10;12;S09-06068;852;Usual;Grade 2;70;Cytplasmic;70;0;Rare inflammatory cells;NA;NA;NA;NA;NA;2;0;NA;NA;0;NA;NA
+11;12;S09-06068;852;Usual;Grade 2;60;Cytoplasmic/Membraneous;90;50;Intense inflammation;NA;NA;NA;NA;NA;11;0;14;0;0;NA;NA
+13;12;S03-03040;852;Usual;Grade 2;1;Cytplasmic;1;1;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+14;12;S03-03040;852;Usual;Grade 2;5;Cytoplasmic/Membraneous;5;2;Intense inflammation;NA;NA;NA;NA;NA;0;0;25;0;0;NA;NA
+15;12;S03-03040;852;Usual;Grade 2;0;NA;0;0;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+1;13;S05-05154;852;Usual;Grade 3;1;Cytplasmic;1;0;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+2;13;S05-05154;852;Usual;Grade 3;2;Cytplasmic;2;0;Rare inflammatory cells;NA;NA;NA;NA;NA;9;0;0;0;0;NA;NA
+3;13;S05-05154;852;Usual;Grade 3;0;NA;0;0;Rare inflammatory cells;NA;NA;NA;NA;NA;3;0;0;0;0;NA;NA
+5;13;S03-02566;852;Warty-Basaloid;Grade 2;1;Cytplasmic;1;1;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;43;0;1;NA;NA
+6;13;S03-02566;852;Warty-Basaloid;Grade 3;10;Cytplasmic;10;10;Lymphoid aggregates;NA;NA;NA;NA;NA;8;0;19;0;5;NA;NA
+7;13;S03-02566;852;Warty-Basaloid;Grade 2;5;Cytplasmic;5;10;Intense inflammation;NA;NA;NA;NA;NA;0;0;40;0;1;NA;NA
+9;13;S03-04833;852;Usual;Grade 1;0;NA;0;5;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;18;0;0;NA;NA
+10;13;S03-04833;852;Usual;Grade 1;0;NA;0;0;Intense inflammation;NA;NA;NA;NA;NA;4;0;30;0;0;NA;NA
+11;13;S03-04833;852;Usual;Grade 1;1;Cytplasmic;1;5;Intense inflammation;NA;NA;NA;NA;NA;1;0;11;0;0;NA;NA
+13;13;S02-03598;852;Usual;Grade 2;5;Cytoplasmic/Membraneous;5;2;Intense inflammation;NA;NA;NA;NA;NA;9;0;0;0;0;NA;NA
+14;13;S02-03598;852;Usual;Grade 2;0;NA;0;2;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;8;0;0;NA;NA
+15;13;S02-03598;852;Usual;Grade 2;0;NA;0;10;Intense inflammation;NA;NA;NA;NA;NA;10;0;12;0;0;NA;NA
+1;1;S01-05254;853;Usual;Grade 1;0;NA;0;0;Rare inflammatory cells;NA;NA;NA;NA;NA;7;0;25;0;0;NA;NA
+2;1;S01-05254;853;Usual;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;59;NA;NA;NA;NA
+3;1;S01-05254;853;Usual;Grade 3;0;NA;0;1;Intense inflammation;NA;NA;NA;NA;NA;9;0;34;0;80;NA;NA
+5;1;S08-00090;853;Papillary;Grade 2;1;Cytplasmic;1;5;Intense inflammation;NA;NA;NA;NA;NA;10;0;95;0;0;NA;NA
+6;1;S08-00090;853;Papillary;Grade 2;2;Cytplasmic;2;1;Intense inflammation;NA;NA;NA;NA;NA;0;0;36;0;0;NA;NA
+7;1;S08-00090;853;Papillary;Grade 2;10;Cytoplasmic/Membraneous;15;15;Intense inflammation;NA;NA;NA;NA;NA;0;0;87;0;0;NA;NA
+9;1;S07-03626;853;Papillary;Grade 2;0;NA;0;1;Intense inflammation;NA;NA;NA;NA;NA;17;0;98;0;0;NA;NA
+10;1;S07-03626;853;Papillary;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;32;0;29;0;0;NA;NA
+11;1;S07-03626;853;Papillary;Grade 2;0;NA;0;1;Intense inflammation;NA;NA;NA;NA;NA;6;0;72;0;0;NA;NA
+13;1;S01-05255;853;Usual;Grade 3;0;NA;0;0;Intense inflammation;NA;NA;NA;NA;NA;0;0;29;0;0;NA;NA
+14;1;S01-05255;853;Usual;Grade 2;0;NA;0;2;Intense inflammation;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+15;1;S01-05255;853;Usual;Grade 3;0;NA;0;1;Intense inflammation;NA;NA;NA;NA;NA;0;0;19;0;0;NA;NA
+1;2;S01-01478;853;Warty;Grade 3;60;Cytoplasmic/Membraneous;65;30;Intense inflammation;NA;NA;NA;NA;NA;19;1;38;8;1;NA;NA
+2;2;S01-01478;853;Warty;Grade 3;30;Cytoplasmic/Membraneous;30;10;Intense inflammation;NA;NA;NA;NA;NA;10;2;60;5;1;NA;NA
+3;2;S01-01478;853;Warty;Grade 3;10;Cytplasmic;10;10;Intense inflammation;NA;NA;NA;NA;NA;1;1;79;2;5;NA;NA
+5;2;S06-00931;853;Papillary;Grade 2;0;NA;0;0;Intense inflammation;NA;NA;NA;NA;NA;9;0;37;0;5;NA;NA
+6;2;S06-00931;853;Papillary;Grade 1;0;NA;0;0;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;41;0;5;NA;NA
+7;2;S06-00931;853;Papillary;Grade 2;0;NA;0;0;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;14;0;1;NA;NA
+9;2;S11-03382;853;Basaloid;Grade 3;40;Cytoplasmic/Membraneous;40;30;Intense inflammation;NA;NA;NA;NA;NA;0;0;26;0;50;NA;NA
+10;2;S11-03382;853;Basaloid;Grade 3;10;Cytoplasmic/Membraneous;10;15;Lymphoid aggregates;NA;NA;NA;NA;NA;7;0;11;0;60;NA;NA
+11;2;S11-03382;853;Basaloid;Grade 3;20;Cytoplasmic/Membraneous;20;20;Intense inflammation;NA;NA;NA;NA;NA;19;0;36;9;50;NA;NA
+13;2;S08-03106;853;Usual;Grade 2;0;NA;0;0;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;13;0;0;NA;NA
+14;2;S08-03106;853;Usual;Grade 2;0;NA;0;0;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;8;0;0;NA;NA
+15;2;S08-03106;853;Usual;Grade 2;0;NA;0;2;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;7;0;0;NA;NA
+1;3;S08-04428;853;Warty-Basaloid;Grade 3;0;NA;0;0;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;42;0;5;NA;NA
+2;3;S08-04428;853;Warty-Basaloid;Grade 3;0;NA;0;0;Lymphoid aggregates;NA;NA;NA;NA;NA;1;0;10;0;10;NA;NA
+3;3;S08-04428;853;Warty-Basaloid;Grade 3;0;NA;0;0;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;7;0;50;NA;NA
+5;3;S09-03360;853;Basaloid;Grade 3;60;Cytoplasmic/Membraneous;60;5;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;24;1;10;NA;NA
+6;3;S09-03360;853;Basaloid;Grade 3;40;Cytplasmic;40;5;Rare inflammatory cells;NA;NA;NA;NA;NA;43;6;23;3;40;NA;NA
+7;3;S09-03360;853;Basaloid;Grade 3;70;Cytoplasmic/Membraneous;110;10;Lymphoid aggregates;NA;NA;NA;NA;NA;7;0;75;17;50;NA;NA
+9;3;S07-11119;853;Usual;Grade 3;30;Cytoplasmic/Membraneous;30;5;Intense inflammation;NA;NA;NA;NA;NA;0;0;43;4;5;NA;NA
+10;3;S07-11119;853;Usual;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;10;0;88;3;1;NA;NA
+11;3;S07-11119;853;Usual;Grade 2;0;NA;0;1;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;15;1;0;NA;NA
+13;3;S08-05037;853;Warty-Basaloid;Grade 3;1;Cytplasmic;1;1;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+14;3;S08-05037;853;Warty-Basaloid;Grade 3;0;NA;0;0;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+15;3;S08-05037;853;Warty-Basaloid;Grade 3;5;Cytoplasmic/Membraneous;5;0;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;3;0;0;NA;NA
+1;4;S03-02997;853;Usual;Grade 1;0;NA;0;1;Intense inflammation;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+2;4;S03-02997;853;Usual;Grade 2;0;NA;0;5;Intense inflammation;NA;NA;NA;NA;NA;6;0;32;1;1;NA;NA
+3;4;S03-02997;853;Usual;Grade 1;0;NA;0;10;Intense inflammation;NA;NA;NA;NA;NA;2;0;28;1;1;NA;NA
+5;4;S03-05365;853;Usual;Grade 2;10;Cytoplasmic/Membraneous;10;10;Intense inflammation;NA;NA;NA;NA;NA;37;1;44;2;1;NA;NA
+6;4;S03-05365;853;Usual;Grade 3;5;Cytplasmic;5;15;Intense inflammation;NA;NA;NA;NA;NA;43;1;25;1;1;NA;NA
+7;4;S03-05365;853;Usual;Grade 3;5;Cytoplasmic/Membraneous;5;15;Intense inflammation;NA;NA;NA;NA;NA;34;2;NA;NA;1;NA;NA
+9;4;S01-05377;853;Usual;Grade 2;0;NA;0;1;Intense inflammation;NA;NA;NA;NA;NA;22;0;34;0;0;NA;NA
+10;4;S01-05377;853;Usual;Grade 2;0;NA;0;1;Lymphoid aggregates;NA;NA;NA;NA;NA;12;0;10;0;0;NA;NA
+11;4;S01-05377;853;Usual;Grade 3;0;NA;0;5;Intense inflammation;NA;NA;NA;NA;NA;2;0;33;0;0;NA;NA
+13;4;S06-02324;853;Usual;Grade 3;90;Cytoplasmic/Membraneous;160;20;Intense inflammation;NA;NA;NA;NA;NA;87;0;14;0;0;NA;NA
+14;4;S06-02324;853;Usual;Grade 3;95;Cytoplasmic/Membraneous;175;30;Intense inflammation;NA;NA;NA;NA;NA;120;0;NA;NA;0;NA;NA
+15;4;S06-02324;853;Usual;Grade 3;95;Cytoplasmic/Membraneous;175;20;Intense inflammation;NA;NA;NA;NA;NA;67;0;NA;NA;0;NA;NA
+1;5;S02-04919;853;Warty;Grade 2;10;Cytoplasmic/Membraneous;10;5;Intense inflammation;NA;NA;NA;NA;NA;58;0;73;0;1;NA;NA
+2;5;S02-04919;853;Warty;Grade 3;10;Cytplasmic;10;10;Intense inflammation;NA;NA;NA;NA;NA;65;0;94;0;1;NA;NA
+3;5;S02-04919;853;Warty;Grade 3;10;Cytplasmic;10;5;Intense inflammation;NA;NA;NA;NA;NA;55;0;80;0;1;NA;NA
+5;5;S04-01973;853;Usual;Grade 3;100;Cytoplasmic/Membraneous;280;10;Intense inflammation;NA;NA;NA;NA;NA;64;10;27;7;40;NA;NA
+6;5;S04-01973;853;Usual;Grade 3;90;Cytoplasmic/Membraneous;250;5;Intense inflammation;NA;NA;NA;NA;NA;120;6;150;7;50;NA;NA
+7;5;S04-01973;853;Usual;Grade 2;80;Cytoplasmic/Membraneous;140;5;Intense inflammation;NA;NA;NA;NA;NA;44;5;75;5;40;NA;NA
+9;5;S09-02629;853;Warty-Basaloid;Grade 3;100;Cytoplasmic/Membraneous;120;2;Intense inflammation;NA;NA;NA;NA;NA;63;1;55;5;90;NA;NA
+10;5;S09-02629;853;Warty-Basaloid;Grade 3;80;Cytoplasmic/Membraneous;85;5;Intense inflammation;NA;NA;NA;NA;NA;40;0;44;0;90;NA;NA
+11;5;S09-02629;853;Warty-Basaloid;Grade 3;80;Cytoplasmic/Membraneous;90;5;Intense inflammation;NA;NA;NA;NA;NA;30;0;6;0;90;NA;NA
+13;5;S04-01569;853;Warty;Grade 2;0;NA;0;2;Intense inflammation;NA;NA;NA;NA;NA;0;0;25;0;0;NA;NA
+14;5;S04-01569;853;Warty;Grade 2;1;Cytplasmic;1;2;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+15;5;S04-01569;853;Warty;Grade 2;1;Cytplasmic;1;0;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;15;0;0;NA;NA
+1;6;S09-02629;853;Warty-Basaloid;Grade 3;60;Cytoplasmic/Membraneous;60;2;Intense inflammation;NA;NA;NA;NA;NA;43;7;80;5;90;NA;NA
+2;6;S09-02629;853;Warty-Basaloid;Grade 3;40;Cytoplasmic/Membraneous;70;1;Intense inflammation;NA;NA;NA;NA;NA;20;7;0;0;90;NA;NA
+3;6;S09-02629;853;Warty-Basaloid;Grade 3;50;Cytoplasmic/Membraneous;80;2;Lymphoid aggregates;NA;NA;NA;NA;NA;50;6;0;0;90;NA;NA
+5;6;S05-02704;853;Basaloid;Grade 3;50;Cytoplasmic/Membraneous;55;2;Intense inflammation;NA;NA;NA;NA;NA;30;4;25;1;10;NA;NA
+6;6;S05-02704;853;Basaloid;Grade 3;90;Cytoplasmic/Membraneous;100;2;Intense inflammation;NA;NA;NA;NA;NA;44;0;17;1;20;NA;NA
+7;6;S05-02704;853;Basaloid;Grade 3;30;Cytoplasmic/Membraneous;30;2;Intense inflammation;NA;NA;NA;NA;NA;18;2;14;2;20;NA;NA
+9;6;S05-02704;853;Basaloid;Grade 3;60;Cytoplasmic/Membraneous;60;2;Intense inflammation;NA;NA;NA;NA;NA;24;2;5;2;10;NA;NA
+10;6;S05-02704;853;Basaloid;Grade 3;50;Cytoplasmic/Membraneous;50;2;Lymphoid aggregates;NA;NA;NA;NA;NA;13;1;7;0;10;NA;NA
+11;6;S05-02704;853;Basaloid;Grade 3;40;Cytoplasmic/Membraneous;40;2;Lymphoid aggregates;NA;NA;NA;NA;NA;15;0;9;0;5;NA;NA
+13;6;S07-01410;853;Warty-Basaloid;Grade 2;100;Cytoplasmic/Membraneous;150;10;Intense inflammation;NA;NA;NA;NA;NA;20;0;66;0;0;NA;NA
+14;6;S07-01410;853;Warty-Basaloid;Grade 3;100;Cytoplasmic/Membraneous;160;10;Intense inflammation;NA;NA;NA;NA;NA;32;0;32;0;1;NA;NA
+15;6;S07-01410;853;Warty-Basaloid;Grade 3;100;Cytoplasmic/Membraneous;180;10;Intense inflammation;NA;NA;NA;NA;NA;20;0;14;0;0;NA;NA
+1;7;S07-03626;853;Papillary;Grade 1;0;NA;0;2;Rare inflammatory cells;NA;NA;NA;NA;NA;13;1;6;0;1;NA;NA
+2;7;S07-03626;853;Papillary;Grade 1;0;NA;0;0;Rare inflammatory cells;NA;NA;NA;NA;NA;3;0;0;0;1;NA;NA
+3;7;S07-03626;853;Papillary;Grade 2;0;NA;0;0;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+5;7;S07-01410;853;Warty-Basaloid;Grade 2;70;Cytoplasmic/Membraneous;80;10;Intense inflammation;NA;NA;NA;NA;NA;13;1;83;3;5;NA;NA
+6;7;S07-01410;853;Warty-Basaloid;Grade 2;100;Cytoplasmic/Membraneous;150;10;Intense inflammation;NA;NA;NA;NA;NA;7;0;116;2;3;NA;NA
+7;7;S07-01410;853;Warty-Basaloid;Grade 3;100;Cytoplasmic/Membraneous;240;20;Intense inflammation;NA;NA;NA;NA;NA;24;6;66;10;3;NA;NA
+9;7;S03-04813;853;Warty;Grade 3;10;Cytplasmic;10;5;Intense inflammation;NA;NA;NA;NA;NA;3;1;18;0;5;NA;NA
+10;7;S03-04813;853;Warty;Grade 3;10;Cytoplasmic/Membraneous;10;5;Lymphoid aggregates;NA;NA;NA;NA;NA;7;0;22;0;5;NA;NA
+11;7;S03-04813;853;Warty;Grade 2;5;Cytplasmic;5;5;Lymphoid aggregates;NA;NA;NA;NA;NA;4;1;11;0;1;NA;NA
+13;7;S09-06962;853;Papillary;Grade 1;0;NA;0;2;Lymphoid aggregates;NA;NA;NA;NA;NA;10;0;93;0;1;NA;NA
+14;7;S09-06962;853;Papillary;Grade 2;0;NA;0;2;Lymphoid aggregates;NA;NA;NA;NA;NA;7;0;48;0;1;NA;NA
+15;7;S09-06962;853;Papillary;Grade 2;5;Cytoplasmic/Membraneous;5;2;Lymphoid aggregates;NA;NA;NA;NA;NA;4;0;19;0;0;NA;NA
+1;8;S03-01811;853;Papillary;Grade 2;0;NA;0;5;Lymphoid aggregates;NA;NA;NA;NA;NA;9;0;25;0;0;NA;NA
+2;8;S03-01811;853;Papillary;Grade 1;0;NA;0;2;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;9;0;0;NA;NA
+3;8;S03-01811;853;Papillary;Grade 1;0;NA;0;2;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+5;8;S07-03626;853;Papillary;Grade 2;0;NA;0;0;Rare inflammatory cells;NA;NA;NA;NA;NA;11;3;14;0;2;NA;NA
+6;8;S07-03626;853;Papillary;Grade 2;0;NA;0;5;Intense inflammation;NA;NA;NA;NA;NA;5;3;24;4;3;NA;NA
+7;8;S07-03626;853;Papillary;Grade 2;0;NA;0;5;Intense inflammation;NA;NA;NA;NA;NA;8;0;7;2;2;NA;NA
+9;8;S03-03997;853;Papillary;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;0;80;0;10;NA;NA
+10;8;S03-03997;853;Papillary;Grade 2;0;NA;0;5;Intense inflammation;NA;NA;NA;NA;NA;6;0;50;0;1;NA;NA
+11;8;S03-03997;853;Papillary;Grade 2;0;NA;0;2;Lymphoid aggregates;NA;NA;NA;NA;NA;8;0;49;0;1;NA;NA
+13;8;S09-01861;853;Usual;Grade 3;5;Cytoplasmic/Membraneous;5;2;Lymphoid aggregates;NA;NA;NA;NA;NA;9;0;85;0;0;NA;NA
+14;8;S09-01861;853;Usual;Grade 3;1;Cytoplasmic/Membraneous;1;5;Intense inflammation;NA;NA;NA;NA;NA;10;0;64;0;0;NA;NA
+15;8;S09-01861;853;Usual;Grade 3;5;Cytplasmic;5;2;Intense inflammation;NA;NA;NA;NA;NA;15;0;40;0;0;NA;NA
+1;9;S09-01861;853;Usual;Grade 3;1;Cytplasmic;1;1;Intense inflammation;NA;NA;NA;NA;NA;23;4;25;3;3;NA;NA
+2;9;S09-01861;853;Usual;Grade 3;0;NA;0;1;Lymphoid aggregates;NA;NA;NA;NA;NA;3;0;44;0;2;NA;NA
+3;9;S09-01861;853;Usual;Grade 2;0;NA;0;1;Intense inflammation;NA;NA;NA;NA;NA;18;0;36;0;0;NA;NA
+5;9;S02-02678;853;Basaloid;Grade 3;100;Cytoplasmic/Membraneous;110;5;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;14;0;0;NA;NA
+6;9;S02-02678;853;Basaloid;Grade 3;100;Cytoplasmic/Membraneous;120;10;Lymphoid aggregates;NA;NA;NA;NA;NA;6;0;14;0;0;NA;NA
+7;9;S02-02678;853;Basaloid;Grade 3;20;Cytoplasmic/Membraneous;20;5;Intense inflammation;NA;NA;NA;NA;NA;0;0;25;0;0;NA;NA
+9;9;S11-03382;853;Basaloid;Grade 3;70;Cytoplasmic/Membraneous;80;10;Intense inflammation;NA;NA;NA;NA;NA;10;8;15;2;40;NA;NA
+10;9;S11-03382;853;Basaloid;Grade 3;30;Cytoplasmic/Membraneous;30;40;Intense inflammation;NA;NA;NA;NA;NA;1;2;56;0;40;NA;NA
+11;9;S11-03382;853;Basaloid;Grade 3;10;Cytoplasmic/Membraneous;10;20;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;35;0;0;NA;NA
+13;9;S00-02339;853;Warty-Basaloid;Grade 3;0;NA;0;1;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;10;0;0;NA;NA
+14;9;S00-02339;853;Warty-Basaloid;Grade 3;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+15;9;S00-02339;853;Warty-Basaloid;Grade 3;0;NA;0;0;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;20;0;0;NA;NA
+1;10;S02-01220;853;Usual;Grade 2;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;9;0;54;0;1;NA;NA
+2;10;S02-01220;853;Usual;Grade 2;1;Cytplasmic;1;2;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;5;1;1;NA;NA
+3;10;S02-01220;853;Usual;Grade 1;0;NA;0;2;Lymphoid aggregates;NA;NA;NA;NA;NA;0;1;30;0;1;NA;NA
+5;10;S07-05924;853;Usual;Grade 2;0;NA;0;0;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;4;0;0;NA;NA
+6;10;S07-05924;853;Usual;Grade 2;0;NA;0;5;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;7;0;0;NA;NA
+7;10;S07-05924;853;Usual;Grade 2;0;NA;0;2;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;5;0;0;NA;NA
+9;10;S03-03386;853;Usual;Grade 1;0;NA;0;5;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;16;0;0;NA;NA
+10;10;S03-03386;853;Usual;Grade 2;0;NA;0;2;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;61;0;0;NA;NA
+11;10;S03-03386;853;Usual;Grade 2;0;NA;0;2;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;14;0;0;NA;NA
+13;10;S03-05365;853;Usual;Grade 2;80;Cytoplasmic/Membraneous;100;5;Intense inflammation;NA;NA;NA;NA;NA;55;0;30;0;0;NA;NA
+14;10;S03-05365;853;Usual;Grade 3;90;Cytoplasmic/Membraneous;90;5;Intense inflammation;NA;NA;NA;NA;NA;45;0;28;0;0;NA;NA
+15;10;S03-05365;853;Usual;Grade 3;60;Cytoplasmic/Membraneous;60;10;Intense inflammation;NA;NA;NA;NA;NA;39;0;13;0;0;NA;NA
+1;11;S04-02483;853;Usual;Grade 1;0;NA;0;2;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;23;0;0;NA;NA
+2;11;S04-02483;853;Usual;Grade 1;0;NA;0;0;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;38;0;0;NA;NA
+3;11;S04-02483;853;Usual;Grade 2;0;NA;0;0;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;22;0;0;NA;NA
+5;11;S05-02605;853;Usual;Grade 2;10;Cytoplasmic/Membraneous;15;2;Intense inflammation;NA;NA;NA;NA;NA;9;0;68;0;0;NA;NA
+6;11;S05-02605;853;Usual;Grade 2;20;Cytoplasmic/Membraneous;20;10;Intense inflammation;NA;NA;NA;NA;NA;10;2;150;0;0;NA;NA
+7;11;S05-02605;853;Usual;Grade 1;0;NA;0;2;Intense inflammation;NA;NA;NA;NA;NA;15;0;57;0;0;NA;NA
+9;11;S08-02777;853;Papillary;Grade 1;0;NA;0;5;Lymphoid aggregates;NA;NA;NA;NA;NA;22;0;0;0;0;NA;NA
+10;11;S08-02777;853;Papillary;Grade 1;5;Cytplasmic;5;2;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;40;4;0;NA;NA
+11;11;S08-02777;853;Papillary;Grade 1;20;Cytoplasmic/Membraneous;25;20;Intense inflammation;NA;NA;NA;NA;NA;0;0;53;0;0;NA;NA
+13;11;S06-00506;853;Warty-Basaloid;Grade 3;10;Cytoplasmic/Membraneous;10;30;Intense inflammation;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+14;11;S06-00506;853;Warty-Basaloid;Grade 3;20;Cytoplasmic/Membraneous;20;10;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+15;11;S06-00506;853;Warty-Basaloid;Grade 3;10;Cytplasmic;10;5;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+5;12;S04-00722;853;Usual;Grade 3;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;0;15;0;0;NA;NA
+6;12;S04-00722;853;Usual;NA;10;Cytoplasmic/Membraneous;10;2;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;23;0;0;NA;NA
+7;12;S04-00722;853;Usual;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;5;0;36;0;0;NA;NA
+9;12;S03-02565;853;Warty-Basaloid;Grade 3;50;Cytoplasmic/Membraneous;50;5;Lymphoid aggregates;NA;NA;NA;NA;NA;3;0;7;0;0;NA;NA
+10;12;S03-02565;853;Warty-Basaloid;Grade 3;20;Cytoplasmic/Membraneous;20;0;Lymphoid aggregates;NA;NA;NA;NA;NA;6;0;0;0;0;NA;NA
+11;12;S03-02565;853;Warty-Basaloid;Grade 3;80;Cytoplasmic/Membraneous;90;2;Lymphoid aggregates;NA;NA;NA;NA;NA;8;0;0;0;0;NA;NA
+13;12;S07-11119;853;Usual;Grade 2;0;NA;0;10;Intense inflammation;NA;NA;NA;NA;NA;3;0;62;0;0;NA;NA
+14;12;S07-11119;853;Usual;Grade 1;10;Cytplasmic;10;20;Intense inflammation;NA;NA;NA;NA;NA;0;0;26;0;0;NA;NA
+15;12;S07-11119;853;Usual;Grade 2;10;Cytplasmic;10;40;Intense inflammation;NA;NA;NA;NA;NA;0;0;120;0;0;NA;NA
+1;13;S09-04476;853;Usual;Grade 3;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;11;3;43;2;3;NA;NA
+2;13;S09-04476;853;Usual;Grade 3;20;Cytoplasmic/Membraneous;20;10;Intense inflammation;NA;NA;NA;NA;NA;12;1;15;0;3;NA;NA
+3;13;S09-04476;853;Usual;Grade 2;40;Cytoplasmic/Membraneous;40;15;Intense inflammation;NA;NA;NA;NA;NA;30;1;48;4;NA;NA;NA
+5;13;S05-00757;853;Warty;Grade 3;50;Cytoplasmic/Membraneous;50;15;Lymphoid aggregates;NA;NA;NA;NA;NA;6;2;27;0;70;NA;NA
+6;13;S05-00757;853;Warty;Grade 3;10;Cytoplasmic/Membraneous;10;5;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+7;13;S05-00757;853;Warty;Grade 3;20;Cytoplasmic/Membraneous;20;10;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;16;NA;50;NA;NA
+9;13;S09-03904;853;Basaloid;Grade 3;10;Cytplasmic;10;5;Intense inflammation;NA;NA;NA;NA;NA;60;0;0;0;5;NA;NA
+10;13;S09-03904;853;Basaloid;Grade 3;90;Cytplasmic;90;10;Intense inflammation;NA;NA;NA;NA;NA;50;0;70;0;5;NA;NA
+11;13;S09-03904;853;Basaloid;Grade 3;40;Cytplasmic;40;5;Intense inflammation;NA;NA;NA;NA;NA;37;0;25;0;1;NA;NA
+13;13;S08-07010;853;Warty-Basaloid;Grade 3;100;Cytoplasmic/Membraneous;170;10;Intense inflammation;NA;NA;NA;NA;NA;15;0;40;0;0;NA;NA
+14;13;S08-07010;853;Warty-Basaloid;Grade 3;100;Cytoplasmic/Membraneous;140;5;Intense inflammation;NA;NA;NA;NA;NA;15;0;3;0;2;NA;NA
+15;13;S08-07010;853;Warty-Basaloid;Grade 2;100;Cytoplasmic/Membraneous;210;5;Intense inflammation;NA;NA;NA;NA;NA;27;0;35;0;0;NA;NA
+1;1;S08-01422;854;Warty;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;9;0;37;0;5;NA;NA
+2;1;S08-01422;854;Warty;Grade 2;5;Cytoplasmic/Membraneous;5;5;Intense inflammation;NA;NA;NA;NA;NA;17;0;46;0;3;NA;NA
+3;1;S08-01422;854;Warty;Grade 2;0;NA;0;5;Intense inflammation;NA;NA;NA;NA;NA;10;0;60;0;1;NA;NA
+5;1;S08-07010;854;Warty-Basaloid;Grade 3;100;Cytoplasmic/Membraneous;240;10;Intense inflammation;NA;NA;NA;NA;NA;35;3;53;5;0;NA;NA
+6;1;S08-07010;854;Warty-Basaloid;Grade 3;90;Cytoplasmic/Membraneous;165;10;Lymphoid aggregates;NA;NA;NA;NA;NA;25;0;30;3;5;NA;NA
+7;1;S08-07010;854;Warty-Basaloid;Grade 3;100;Cytoplasmic/Membraneous;260;15;Intense inflammation;NA;NA;NA;NA;NA;16;0;42;1;5;NA;NA
+9;1;S09-03904;854;Basaloid;Grade 3;90;Cytoplasmic/Membraneous;100;5;Intense inflammation;NA;NA;NA;NA;NA;45;2;20;0;5;NA;NA
+10;1;S09-03904;854;Basaloid;Grade 3;60;Cytoplasmic/Membraneous;60;2;Lymphoid aggregates;NA;NA;NA;NA;NA;35;0;5;0;0;NA;NA
+11;1;S09-03904;854;Basaloid;Grade 3;50;Cytplasmic;50;5;Intense inflammation;NA;NA;NA;NA;NA;40;0;65;0;0;NA;NA
+13;1;S03-02121;854;Usual;Grade 2;0;NA;0;0;Rare inflammatory cells;NA;NA;NA;NA;NA;12;0;14;0;0;NA;NA
+14;1;S03-02121;854;Usual;Grade 2;100;Cytoplasmic/Membraneous;150;20;Intense inflammation;NA;NA;NA;NA;NA;20;0;76;0;0;NA;NA
+15;1;S03-02121;854;Usual;Grade 2;50;Cytoplasmic/Membraneous;50;20;Intense inflammation;NA;NA;NA;NA;NA;40;0;70;0;0;NA;NA
+1;2;S00-00778;854;Warty-Basaloid;Grade 2;100;Cytoplasmic/Membraneous;100;20;Intense inflammation;NA;NA;NA;NA;NA;0;0;30;0;0;NA;NA
+2;2;S00-00778;854;Warty-Basaloid;Grade 2;100;Cytoplasmic/Membraneous;100;20;Intense inflammation;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+3;2;S00-00778;854;Warty-Basaloid;Grade 2;100;Cytoplasmic/Membraneous;100;15;Intense inflammation;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+5;2;S02-02678;854;Basaloid;Grade 3;30;Cytplasmic;30;2;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;5;0;0;NA;NA
+6;2;S02-02678;854;Basaloid;Grade 3;50;Cytoplasmic/Membraneous;50;5;Intense inflammation;NA;NA;NA;NA;NA;0;0;44;0;0;NA;NA
+7;2;S02-02678;854;Basaloid;Grade 3;30;Cytplasmic;30;1;Rare inflammatory cells;NA;NA;NA;NA;NA;4;0;1;0;0;NA;NA
+9;2;S06-03367;854;Usual;Grade 2;100;Cytoplasmic/Membraneous;180;20;Intense inflammation;NA;NA;NA;NA;NA;21;1;74;3;5;NA;NA
+10;2;S06-03367;854;Usual;Grade 2;30;Cytplasmic;30;20;Intense inflammation;NA;NA;NA;NA;NA;NA;NA;110;0;NA;NA;NA
+11;2;S06-03367;854;Usual;Grade 2;100;Cytoplasmic/Membraneous;250;30;Intense inflammation;NA;NA;NA;NA;NA;30;2;80;4;5;NA;NA
+13;2;S03-04184;854;Warty-Basaloid;Grade 3;80;Cytoplasmic/Membraneous;120;10;Rare inflammatory cells;NA;NA;NA;NA;NA;5;0;NA;NA;2;NA;NA
+14;2;S03-04184;854;Warty-Basaloid;Grade 3;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+15;2;S03-04184;854;Warty-Basaloid;Grade 3;80;Cytoplasmic/Membraneous;130;10;Rare inflammatory cells;NA;NA;NA;NA;NA;2;0;NA;NA;5;NA;NA
+1;3;S06-03347;854;Warty-Basaloid;Grade 3;5;Cytplasmic;5;5;Intense inflammation;NA;NA;NA;NA;NA;6;0;53;0;10;NA;NA
+2;3;S06-03347;854;Warty-Basaloid;Grade 3;0;NA;0;2;Intense inflammation;NA;NA;NA;NA;NA;2;0;14;0;5;NA;NA
+3;3;S06-03347;854;Warty-Basaloid;Grade 3;0;NA;0;2;Intense inflammation;NA;NA;NA;NA;NA;7;2;4;0;5;NA;NA
+5;3;S06-01500;854;Warty;Grade 3;20;Cytoplasmic/Membraneous;20;2;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;14;0;1;NA;NA
+6;3;S06-01500;854;Warty;Grade 3;40;Cytoplasmic/Membraneous;40;2;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;3;0;1;NA;NA
+7;3;S06-01500;854;Warty;Grade 3;60;Cytoplasmic/Membraneous;60;2;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;57;0;1;NA;NA
+9;3;S02-01180;854;Warty-Basaloid;Grade 3;100;Cytoplasmic/Membraneous;100;10;Intense inflammation;NA;NA;NA;NA;NA;15;0;66;0;70;NA;NA
+10;3;S02-01180;854;Warty-Basaloid;Grade 3;80;Cytoplasmic/Membraneous;80;5;Intense inflammation;NA;NA;NA;NA;NA;10;3;50;3;90;NA;NA
+11;3;S02-01180;854;Warty-Basaloid;Grade 3;60;Cytoplasmic/Membraneous;90;10;Intense inflammation;NA;NA;NA;NA;NA;14;0;32;2;80;NA;NA
+13;3;S08-04445;854;Basaloid;Grade 3;10;Cytplasmic;10;50;Intense inflammation;NA;NA;NA;NA;NA;1;0;18;0;50;NA;NA
+14;3;S08-04445;854;Basaloid;Grade 3;10;Cytoplasmic/Membraneous;10;60;Intense inflammation;NA;NA;NA;NA;NA;1;3;13;0;40;NA;NA
+15;3;S08-04445;854;Basaloid;Grade 3;10;Cytplasmic;10;30;Lymphoid aggregates;NA;NA;NA;NA;NA;1;1;4;0;50;NA;NA
+1;4;S02-02678;854;Basaloid;Grade 3;1;Cytplasmic;1;5;Intense inflammation;NA;NA;NA;NA;NA;11;0;43;0;0;NA;NA
+2;4;S02-02678;854;Basaloid;Grade 3;0;NA;0;10;Intense inflammation;NA;NA;NA;NA;NA;12;0;43;0;0;NA;NA
+3;4;S02-02678;854;Basaloid;Grade 3;0;NA;0;15;Intense inflammation;NA;NA;NA;NA;NA;6;0;56;0;NA;NA;NA
+9;4;S04-02973;854;Verrucous;Grade 1;0;NA;0;0;Rare inflammatory cells;NA;NA;NA;NA;NA;2;0;0;0;0;NA;NA
+10;4;S04-02973;854;Verrucous;Grade 1;0;NA;0;0;Rare inflammatory cells;NA;NA;NA;NA;NA;1;0;24;0;0;NA;NA
+11;4;S04-02973;854;Verrucous;Grade 1;0;NA;0;2;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;26;0;1;NA;NA
+13;4;S03-03386;854;Usual;Grade 2;5;Cytplasmic;5;2;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+14;4;S03-03386;854;Usual;Grade 2;10;Cytplasmic;10;5;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;7;0;0;NA;NA
+15;4;S03-03386;854;Usual;Grade 1;5;Cytplasmic;5;2;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+1;5;S01-01478;854;Warty;Grade 2;90;Cytoplasmic/Membraneous;100;30;Intense inflammation;NA;NA;NA;NA;NA;3;6;18;1;30;NA;NA
+2;5;S01-01478;854;Warty;Grade 2;80;Cytoplasmic/Membraneous;90;20;Intense inflammation;NA;NA;NA;NA;NA;5;5;27;3;20;NA;NA
+3;5;S01-01478;854;Warty;Grade 3;90;Cytoplasmic/Membraneous;100;30;Intense inflammation;NA;NA;NA;NA;NA;5;3;48;8;15;NA;NA
+5;5;S09-02684;854;Usual;Grade 2;10;Cytplasmic;10;5;Lymphoid aggregates;NA;NA;NA;NA;NA;14;0;6;0;0;NA;NA
+6;5;S09-02684;854;Usual;Grade 3;5;Cytplasmic;5;10;Intense inflammation;NA;NA;NA;NA;NA;6;0;30;0;0;NA;NA
+7;5;S09-02684;854;Usual;Grade 3;10;Cytplasmic;10;10;Intense inflammation;NA;NA;NA;NA;NA;4;0;15;0;0;NA;NA
+9;5;S09-02684;854;Usual;Grade 3;10;Cytoplasmic/Membraneous;20;50;Intense inflammation;NA;NA;NA;NA;NA;8;0;9;2;1;NA;NA
+10;5;S09-02684;854;Usual;Grade 2;60;Cytoplasmic/Membraneous;90;20;Intense inflammation;NA;NA;NA;NA;NA;17;1;31;1;1;NA;NA
+11;5;S09-02684;854;Usual;Grade 3;60;Cytoplasmic/Membraneous;60;15;Intense inflammation;NA;NA;NA;NA;NA;12;3;36;1;1;NA;NA
+1;6;S04-01569;854;Warty;Grade 2;5;Cytplasmic;5;0;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;12;0;1;NA;NA
+2;6;S04-01569;854;Warty;Grade 2;0;NA;0;0;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;0;0;1;NA;NA
+3;6;S04-01569;854;Warty;Grade 2;0;NA;0;0;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;9;0;1;NA;NA
+5;6;S03-02211;854;Usual;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;14;0;0;NA;NA
+6;6;S03-02211;854;Usual;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;12;0;12;0;0;NA;NA
+7;6;S03-02211;854;Usual;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;9;0;NA;NA;NA
+9;6;S07-05924;854;Usual;Grade 2;1;Cytplasmic;1;2;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;7;0;1;NA;NA
+10;6;S07-05924;854;Usual;Grade 3;5;Cytplasmic;5;2;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;8;0;1;NA;NA
+11;6;S07-05924;854;Usual;Grade 3;1;Cytoplasmic/Membraneous;1;0;Lymphoid aggregates;NA;NA;NA;NA;NA;1;0;2;0;1;NA;NA
+13;6;S03-03289;854;Usual;Grade 2;100;Cytoplasmic/Membraneous;160;2;Intense inflammation;NA;NA;NA;NA;NA;0;0;84;5;2;NA;NA
+14;6;S03-03289;854;Usual;Grade 2;40;Cytoplasmic/Membraneous;40;10;Intense inflammation;NA;NA;NA;NA;NA;0;0;44;2;1;NA;NA
+15;6;S03-03289;854;Usual;Grade 2;100;Cytoplasmic/Membraneous;120;10;Intense inflammation;NA;NA;NA;NA;NA;1;0;130;1;1;NA;NA
+1;7;S00-00836;854;Verrucous;Grade 2;0;NA;0;0;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+2;7;S00-00836;854;Verrucous;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+3;7;S00-00836;854;Verrucous;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+5;7;S09-09469;854;Warty;Grade 3;50;Cytoplasmic/Membraneous;50;5;Intense inflammation;NA;NA;NA;NA;NA;3;6;5;2;3;NA;NA
+6;7;S09-09469;854;Warty;Grade 3;50;Cytoplasmic/Membraneous;50;10;Intense inflammation;NA;NA;NA;NA;NA;4;3;7;0;1;NA;NA
+7;7;S09-09469;854;Warty;Grade 3;40;Cytoplasmic/Membraneous;40;10;Rare inflammatory cells;NA;NA;NA;NA;NA;3;3;4;3;1;NA;NA
+9;7;S09-00499;854;Warty-Basaloid;Grade 3;80;Cytoplasmic/Membraneous;120;15;Intense inflammation;NA;NA;NA;NA;NA;20;2;42;0;80;NA;NA
+10;7;S09-00499;854;Warty-Basaloid;Grade 3;50;Cytoplasmic/Membraneous;50;20;Intense inflammation;NA;NA;NA;NA;NA;11;2;18;1;90;NA;NA
+11;7;S09-00499;854;Warty-Basaloid;Grade 3;30;Cytoplasmic/Membraneous;30;20;Intense inflammation;NA;NA;NA;NA;NA;8;2;10;0;90;NA;NA
+13;7;S04-05444;854;Warty;Grade 3;0;NA;0;0;Intense inflammation;NA;NA;NA;NA;NA;3;0;20;0;0;NA;NA
+14;7;S04-05444;854;Warty;Grade 2;0;NA;0;0;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;0;0;1;NA;NA
+15;7;S04-05444;854;Warty;Grade 3;2;Cytplasmic;2;0;Lymphoid aggregates;NA;NA;NA;NA;NA;1;0;4;0;0;NA;NA
+1;8;S03-03040;854;Usual;Grade 2;0;NA;0;0;Rare inflammatory cells;NA;NA;NA;NA;NA;3;0;2;0;0;NA;NA
+2;8;S03-03040;854;Usual;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;0;5;0;0;NA;NA
+3;8;S03-03040;854;Usual;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;0;0;NA;NA
+5;8;S03-07123;854;Usual;Grade 2;1;Cytplasmic;1;5;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;7;0;1;NA;NA
+6;8;S03-07123;854;Usual;Grade 2;2;Cytplasmic;2;5;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;4;0;2;NA;NA
+7;8;S03-07123;854;Usual;Grade 2;0;NA;0;5;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;29;0;5;NA;NA
+9;8;S03-00826;854;Usual;Grade 3;60;Cytoplasmic/Membraneous;90;30;Intense inflammation;NA;NA;NA;NA;NA;10;1;22;1;2;NA;NA
+10;8;S03-00826;854;Usual;Grade 3;60;Cytoplasmic/Membraneous;80;15;Intense inflammation;NA;NA;NA;NA;NA;8;1;15;5;30;NA;NA
+11;8;S03-00826;854;Usual;Grade 3;60;Cytoplasmic/Membraneous;70;20;Intense inflammation;NA;NA;NA;NA;NA;12;0;13;2;10;NA;NA
+13;8;S03-02225;854;Papillary;Grade 2;0;NA;0;2;Lymphoid aggregates;NA;NA;NA;NA;NA;16;0;24;0;0;NA;NA
+14;8;S03-02225;854;Papillary;Grade 2;0;NA;0;2;Lymphoid aggregates;NA;NA;NA;NA;NA;11;0;11;0;0;NA;NA
+15;8;S03-02225;854;Papillary;Grade 3;0;NA;0;10;Intense inflammation;NA;NA;NA;NA;NA;24;0;40;0;1;NA;NA
+1;9;S07-00840;854;Usual;Grade 2;60;Cytoplasmic/Membraneous;60;2;Intense inflammation;NA;NA;NA;NA;NA;22;3;8;0;5;NA;NA
+2;9;S07-00840;854;Usual;Grade 1;50;Cytoplasmic/Membraneous;50;5;Intense inflammation;NA;NA;NA;NA;NA;28;4;15;2;5;NA;NA
+3;9;S07-00840;854;Usual;Grade 2;70;Cytoplasmic/Membraneous;90;2;Intense inflammation;NA;NA;NA;NA;NA;16;4;20;3;5;NA;NA
+5;9;S09-01424;854;Warty;Grade 2;0;NA;0;15;Intense inflammation;NA;NA;NA;NA;NA;7;1;23;2;5;NA;NA
+6;9;S09-01424;854;Warty;Grade 3;0;NA;0;30;Intense inflammation;NA;NA;NA;NA;NA;10;1;101;1;5;NA;NA
+7;9;S09-01424;854;Warty;Grade 3;0;NA;0;40;Intense inflammation;NA;NA;NA;NA;NA;4;0;26;4;3;NA;NA
+9;9;S08-03697;854;Warty-Basaloid;Grade 3;100;Cytoplasmic/Membraneous;280;5;Lymphoid aggregates;NA;NA;NA;NA;NA;2;0;0;0;1;NA;NA
+10;9;S08-03697;854;Warty-Basaloid;Grade 3;100;Cytoplasmic/Membraneous;270;5;Lymphoid aggregates;NA;NA;NA;NA;NA;4;0;25;0;3;NA;NA
+11;9;S08-03697;854;Warty-Basaloid;Grade 3;100;Cytoplasmic/Membraneous;300;NA;No inflammatory cells;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+13;9;S06-03367;854;Usual;Grade 3;80;Cytoplasmic/Membraneous;180;10;Intense inflammation;NA;NA;NA;NA;NA;28;2;75;2;2;NA;NA
+14;9;S06-03367;854;Usual;Grade 3;90;Cytoplasmic/Membraneous;190;15;Intense inflammation;NA;NA;NA;NA;NA;34;3;60;0;1;NA;NA
+15;9;S06-03367;854;Usual;Grade 2;100;Cytoplasmic/Membraneous;170;10;Intense inflammation;NA;NA;NA;NA;NA;15;4;35;0;1;NA;NA
+1;10;S07-01439;854;Basaloid;Grade 3;0;NA;0;0;Intense inflammation;NA;NA;NA;NA;NA;0;0;4;0;0;NA;NA
+2;10;S07-01439;854;Basaloid;Grade 3;0;NA;0;0;Rare inflammatory cells;NA;NA;NA;NA;NA;2;0;NA;NA;0;NA;NA
+3;10;S07-01439;854;Basaloid;Grade 3;0;NA;0;0;Lymphoid aggregates;NA;NA;NA;NA;NA;4;0;0;0;0;NA;NA
+5;10;S03-02211;854;Usual;Grade 2;0;NA;0;10;Intense inflammation;NA;NA;NA;NA;NA;0;0;35;0;0;NA;NA
+6;10;S03-02211;854;Usual;Grade 2;0;NA;0;5;Intense inflammation;NA;NA;NA;NA;NA;3;0;12;1;1;NA;NA
+7;10;S03-02211;854;Usual;Grade 2;0;NA;0;10;Intense inflammation;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+9;10;S09-03360;854;Basaloid;Grade 3;100;Cytoplasmic/Membraneous;140;5;Lymphoid aggregates;NA;NA;NA;NA;NA;12;3;27;2;50;NA;NA
+10;10;S09-03360;854;Basaloid;Grade 3;100;Cytoplasmic/Membraneous;110;5;Lymphoid aggregates;NA;NA;NA;NA;NA;13;7;18;0;90;NA;NA
+11;10;S09-03360;854;Basaloid;Grade 3;100;Cytoplasmic/Membraneous;150;10;Lymphoid aggregates;NA;NA;NA;NA;NA;4;0;33;3;10;NA;NA
+13;10;S08-06091;854;Papillary;Grade 2;0;NA;0;0;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+14;10;S08-06091;854;Papillary;Grade 1;0;NA;0;NA;No inflammatory cells;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+15;10;S08-06091;854;Papillary;Grade 2;0;NA;0;0;Intense inflammation;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+1;11;S08-06091;854;Papillary;Grade 2;0;NA;0;0;Intense inflammation;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+2;11;S08-06091;854;Papillary;Grade 2;0;NA;0;0;Intense inflammation;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+3;11;S08-06091;854;Papillary;Grade 2;0;NA;0;0;Intense inflammation;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+5;11;S08-04428;854;Warty-Basaloid;Grade 2;0;NA;0;0;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;0;0;20;NA;NA
+6;11;S08-04428;854;Warty-Basaloid;Grade 2;20;Cytoplasmic/Membraneous;20;15;Intense inflammation;NA;NA;NA;NA;NA;2;1;59;0;50;NA;NA
+7;11;S08-04428;854;Warty-Basaloid;Grade 2;0;NA;0;5;Intense inflammation;NA;NA;NA;NA;NA;0;0;15;0;80;NA;NA
+9;11;S08-00699;854;Warty;Grade 1;0;NA;0;0;Rare inflammatory cells;NA;NA;NA;NA;NA;1;0;0;0;1;NA;NA
+10;11;S08-00699;854;Warty;Grade 2;5;Cytplasmic;5;1;Lymphoid aggregates;NA;NA;NA;NA;NA;7;0;3;0;3;NA;NA
+11;11;S08-00699;854;Warty;Grade 2;0;NA;0;0;Rare inflammatory cells;NA;NA;NA;NA;NA;2;0;1;0;1;NA;NA
+13;11;S08-03106;854;Usual;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+14;11;S08-03106;854;Usual;Grade 1;0;NA;0;2;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;5;0;0;NA;NA
+15;11;S08-03106;854;Usual;Grade 1;0;NA;0;0;Lymphoid aggregates;NA;NA;NA;NA;NA;1;0;0;0;0;NA;NA
+1;12;S08-00699;854;Warty;Grade 3;1;Cytoplasmic/Membraneous;1;0;Intense inflammation;NA;NA;NA;NA;NA;0;0;0;0;5;NA;NA
+2;12;S08-00699;854;Warty;Grade 3;1;Cytplasmic;1;1;Intense inflammation;NA;NA;NA;NA;NA;0;0;0;0;5;NA;NA
+3;12;S08-00699;854;Warty;Grade 3;5;Cytoplasmic/Membraneous;5;0;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;0;0;5;NA;NA
+5;12;S08-01817;854;Warty-Basaloid;Grade 3;0;NA;0;50;Intense inflammation;NA;NA;NA;NA;NA;17;0;40;0;0;NA;NA
+6;12;S08-01817;854;Warty-Basaloid;Grade 3;0;NA;0;0;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+7;12;S08-01817;854;Warty-Basaloid;Grade 3;100;Cytoplasmic/Membraneous;230;5;Lymphoid aggregates;NA;NA;NA;NA;NA;60;0;74;0;0;NA;NA
+9;12;S05-01701;854;Usual;Grade 2;0;NA;0;0;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;0;0;1;NA;NA
+10;12;S05-01701;854;Usual;Grade 2;0;NA;0;1;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;8;0;1;NA;NA
+11;12;S05-01701;854;Usual;Grade 3;0;NA;0;1;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;8;0;1;NA;NA
+13;12;S06-03918;854;Warty-Basaloid;Grade 3;5;Cytoplasmic/Membraneous;5;1;Lymphoid aggregates;NA;NA;NA;NA;NA;2;0;0;0;0;NA;NA
+14;12;S06-03918;854;Warty-Basaloid;Grade 3;2;Cytplasmic;2;1;Lymphoid aggregates;NA;NA;NA;NA;NA;4;0;0;0;0;NA;NA
+15;12;S06-03918;854;Warty-Basaloid;Grade 3;2;Cytplasmic;2;1;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+1;13;S07-05729;854;Usual;Grade 2;5;Cytplasmic;5;10;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;0;0;2;NA;NA
+2;13;S07-05729;854;Usual;Grade 2;0;NA;0;0;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;0;0;1;NA;NA
+3;13;S07-05729;854;Usual;Grade 3;0;NA;0;1;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;5;0;2;NA;NA
+5;13;S08-01155;854;Sarcomatoid;Grade 3;100;Cytoplasmic/Membraneous;300;30;Intense inflammation;NA;NA;NA;NA;NA;3;19;17;14;5;NA;NA
+6;13;S08-01155;854;Sarcomatoid;Grade 3;100;Cytoplasmic/Membraneous;280;15;Intense inflammation;NA;NA;NA;NA;NA;7;6;5;23;5;NA;NA
+7;13;S08-01155;854;Sarcomatoid;Grade 3;100;Cytoplasmic/Membraneous;300;10;Intense inflammation;NA;NA;NA;NA;NA;6;6;14;10;10;NA;NA
+9;13;S09-02946;854;Warty-Basaloid;Grade 3;70;Cytoplasmic/Membraneous;80;5;Intense inflammation;NA;NA;NA;NA;NA;20;0;13;0;5;NA;NA
+10;13;S09-02946;854;Warty-Basaloid;Grade 3;60;Cytoplasmic/Membraneous;60;10;Intense inflammation;NA;NA;NA;NA;NA;7;1;9;0;3;NA;NA
+11;13;S09-02946;854;Warty-Basaloid;NA;70;Cytoplasmic/Membraneous;70;20;Intense inflammation;NA;NA;NA;NA;NA;3;1;35;0;3;NA;NA
+13;13;S07-05729;854;Usual;Grade 2;0;NA;0;0;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+14;13;S07-05729;854;Usual;Grade 2;0;NA;0;0;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+15;13;S07-05729;854;Usual;Grade 2;0;NA;0;5;Intense inflammation;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+1;1;S09-09469;855;Warty;Grade 3;10;Cytoplasmic/Membraneous;10;5;Intense inflammation;NA;NA;NA;NA;NA;0;0;46;1;1;NA;NA
+2;1;S09-09469;855;Warty;Grade 3;15;Cytoplasmic/Membraneous;15;7;Intense inflammation;NA;NA;NA;NA;NA;0;2;30;3;2;NA;NA
+3;1;S09-09469;855;Warty;Grade 3;5;Cytoplasmic/Membraneous;5;5;Intense inflammation;NA;NA;NA;NA;NA;2;5;27;3;2;NA;NA
+5;1;S01-00444;855;Warty;Grade 2;80;Cytoplasmic/Membraneous;80;2;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+6;1;S01-00444;855;Warty;Grade 2;40;Cytoplasmic/Membraneous;50;2;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+7;1;S01-00444;855;Warty;Grade 2;40;Cytoplasmic/Membraneous;50;2;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+9;1;S03-00914;855;Warty-Basaloid;Grade 3;100;Cytplasmic;100;0;Intense inflammation;NA;NA;NA;NA;NA;43;0;0;0;0;NA;NA
+10;1;S03-00914;855;Warty-Basaloid;Grade 3;100;Cytoplasmic/Membraneous;100;2;Intense inflammation;NA;NA;NA;NA;NA;30;0;63;0;0;NA;NA
+11;1;S03-00914;855;Warty-Basaloid;Grade 3;100;Cytoplasmic/Membraneous;100;2;Intense inflammation;NA;NA;NA;NA;NA;37;0;40;0;0;NA;NA
+1;2;S09-00876;855;Basaloid;Grade 3;20;Cytplasmic;20;0;Rare inflammatory cells;NA;NA;NA;NA;NA;3;2;NA;NA;40;NA;NA
+2;2;S09-00876;855;Basaloid;Grade 3;30;Cytoplasmic/Membraneous;30;0;Rare inflammatory cells;NA;NA;NA;NA;NA;4;1;NA;NA;30;NA;NA
+3;2;S09-00876;855;Basaloid;Grade 3;10;Cytoplasmic/Membraneous;10;2;Rare inflammatory cells;NA;NA;NA;NA;NA;4;1;NA;NA;30;NA;NA
+5;2;S03-03206;855;Usual;Grade 2;0;NA;0;1;Lymphoid aggregates;NA;NA;NA;NA;NA;11;0;16;0;3;NA;NA
+6;2;S03-03206;855;Usual;Grade 2;0;NA;0;5;Intense inflammation;NA;NA;NA;NA;NA;8;2;25;2;5;NA;NA
+7;2;S03-03206;855;Usual;Grade 2;0;NA;0;10;Intense inflammation;NA;NA;NA;NA;NA;28;1;76;1;3;NA;NA
+9;2;S08-02777;855;Papillary;Grade 2;0;NA;0;0;Intense inflammation;NA;NA;NA;NA;NA;5;1;13;1;1;NA;NA
+10;2;S08-02777;855;Papillary;Grade 2;0;NA;0;0;Intense inflammation;NA;NA;NA;NA;NA;6;0;21;0;1;NA;NA
+11;2;S08-02777;855;Papillary;Grade 2;0;NA;0;0;Intense inflammation;NA;NA;NA;NA;NA;0;0;12;0;1;NA;NA
+1;3;S03-00914;855;Warty-Basaloid;NA;40;Cytplasmic;40;0;Intense inflammation;NA;NA;NA;NA;NA;1;0;29;0;1;NA;NA
+2;3;S03-00914;855;Warty-Basaloid;Grade 3;20;Cytplasmic;20;0;Intense inflammation;NA;NA;NA;NA;NA;0;0;10;0;1;NA;NA
+3;3;S03-00914;855;Warty-Basaloid;Grade 3;30;Cytplasmic;30;0;Intense inflammation;NA;NA;NA;NA;NA;1;0;41;1;1;NA;NA
+5;3;S00-00778;855;Warty-Basaloid;NA;50;Cytoplasmic/Membraneous;50;5;Lymphoid aggregates;NA;NA;NA;NA;NA;NA;NA;27;0;0;NA;NA
+6;3;S00-00778;855;Warty-Basaloid;Grade 2;40;Cytoplasmic/Membraneous;40;2;Lymphoid aggregates;NA;NA;NA;NA;NA;NA;NA;22;0;0;NA;NA
+7;3;S00-00778;855;Warty-Basaloid;Grade 2;50;Cytoplasmic/Membraneous;50;5;Intense inflammation;NA;NA;NA;NA;NA;NA;NA;25;0;0;NA;NA
+9;3;S04-05444;855;Warty;Grade 3;0;NA;0;0;Intense inflammation;NA;NA;NA;NA;NA;0;0;0;0;1;NA;NA
+10;3;S04-05444;855;Warty;Grade 3;0;NA;0;2;Intense inflammation;NA;NA;NA;NA;NA;2;0;16;0;0;NA;NA
+11;3;S04-05444;855;Warty;Grade 3;0;NA;0;5;Intense inflammation;NA;NA;NA;NA;NA;2;0;40;0;0;NA;NA
+1;4;S09-10519;855;Usual;Grade 2;0;NA;0;0;Lymphoid aggregates;NA;NA;NA;NA;NA;6;0;7;0;0;NA;NA
+2;4;S09-10519;855;Usual;Grade 1;0;NA;0;0;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;9;0;90;NA;NA
+3;4;S09-10519;855;Usual;Grade 2;0;NA;0;2;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;6;0;0;NA;NA
+5;4;S04-05444;855;Warty;Grade 3;0;NA;0;0;Lymphoid aggregates;NA;NA;NA;NA;NA;11;0;52;0;1;NA;NA
+6;4;S04-05444;855;Warty;Grade 3;0;NA;0;0;Intense inflammation;NA;NA;NA;NA;NA;0;0;12;0;1;NA;NA
+7;4;S04-05444;855;Warty;Grade 2;0;NA;0;0;Intense inflammation;NA;NA;NA;NA;NA;3;0;36;0;1;NA;NA
+9;4;S00-03778;855;Basaloid;Grade 3;20;Cytoplasmic/Membraneous;25;5;Intense inflammation;NA;NA;NA;NA;NA;1;0;48;0;80;NA;NA
+10;4;S00-03778;855;Basaloid;Grade 3;40;Cytoplasmic/Membraneous;50;2;Intense inflammation;NA;NA;NA;NA;NA;11;0;55;0;80;NA;NA
+11;4;S00-03778;855;Basaloid;Grade 3;60;Cytoplasmic/Membraneous;70;10;Intense inflammation;NA;NA;NA;NA;NA;3;0;35;0;60;NA;NA
+1;5;S02-06028;855;Basaloid;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;10;1;10;1;1;NA;NA
+2;5;S02-06028;855;Basaloid;Grade 3;5;Cytoplasmic/Membraneous;5;10;Intense inflammation;NA;NA;NA;NA;NA;5;3;2;2;3;NA;NA
+3;5;S02-06028;855;Basaloid;Grade 3;0;NA;0;0;Intense inflammation;NA;NA;NA;NA;NA;12;3;0;0;1;NA;NA
+5;5;S09-10519;855;Usual;Grade 2;0;NA;0;1;Intense inflammation;NA;NA;NA;NA;NA;2;0;50;1;5;NA;NA
+6;5;S09-10519;855;Usual;Grade 2;0;NA;0;1;Intense inflammation;NA;NA;NA;NA;NA;14;0;34;0;1;NA;NA
+7;5;S09-10519;855;Usual;Grade 2;0;NA;0;2;Intense inflammation;NA;NA;NA;NA;NA;3;0;36;0;1;NA;NA
+9;5;S01-00444;855;Warty;Grade 2;5;Cytoplasmic/Membraneous;10;0;Lymphoid aggregates;NA;NA;NA;NA;NA;8;0;9;0;0;NA;NA
+10;5;S01-00444;855;Warty;Grade 2;5;Cytoplasmic/Membraneous;5;0;Intense inflammation;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+11;5;S01-00444;855;Warty;Grade 3;20;Cytoplasmic/Membraneous;25;0;Intense inflammation;NA;NA;NA;NA;NA;7;0;27;0;0;NA;NA
+1;6;S09-02946;855;Warty-Basaloid;Grade 3;10;Cytoplasmic/Membraneous;10;2;Lymphoid aggregates;NA;NA;NA;NA;NA;10;0;30;1;2;NA;NA
+2;6;S09-02946;855;Warty-Basaloid;Grade 3;10;Cytoplasmic/Membraneous;15;2;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;30;0;1;NA;NA
+3;6;S09-02946;855;Warty-Basaloid;Grade 3;40;Cytoplasmic/Membraneous;60;0;Rare inflammatory cells;NA;NA;NA;NA;NA;14;0;NA;NA;2;NA;NA
+5;6;S00-00836;855;Verrucous;Grade 2;0;NA;0;0;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;0;0;0;NA;NA
+6;6;S00-00836;855;Verrucous;Grade 2;0;NA;0;1;Intense inflammation;NA;NA;NA;NA;NA;9;0;23;0;1;NA;NA
+7;6;S00-00836;855;Verrucous;Grade 2;0;NA;0;0;Intense inflammation;NA;NA;NA;NA;NA;0;0;23;0;0;NA;NA
+9;6;S08-03410;855;Usual;Grade 1;0;NA;0;30;Rare inflammatory cells;NA;NA;NA;NA;NA;8;1;46;1;1;NA;NA
+10;6;S08-03410;855;Usual;Grade 1;0;NA;0;40;Rare inflammatory cells;NA;NA;NA;NA;NA;17;0;42;3;3;NA;NA
+11;6;S08-03410;855;Usual;Grade 1;0;NA;0;30;Rare inflammatory cells;NA;NA;NA;NA;NA;28;0;35;1;2;NA;NA
+1;7;S03-00826;855;Usual;Grade 2;30;Cytoplasmic/Membraneous;40;5;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;10;0;1;NA;NA
+2;7;S03-00826;855;Usual;Grade 3;20;Cytoplasmic/Membraneous;20;10;Intense inflammation;NA;NA;NA;NA;NA;6;0;15;0;3;NA;NA
+3;7;S03-00826;855;Usual;Grade 3;40;Cytoplasmic/Membraneous;40;2;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;5;0;1;NA;NA
+5;7;S04-05444;855;Warty;Grade 2;0;NA;0;1;Intense inflammation;NA;NA;NA;NA;NA;4;0;12;0;0;NA;NA
+6;7;S04-05444;855;Warty;Grade 3;0;NA;0;5;Intense inflammation;NA;NA;NA;NA;NA;8;0;44;0;1;NA;NA
+7;7;S04-05444;855;Warty;Grade 3;0;NA;0;5;Intense inflammation;NA;NA;NA;NA;NA;9;0;66;0;1;NA;NA
+9;7;S03-06011;855;Warty-Basaloid;Grade 3;2;Cytoplasmic/Membraneous;2;2;Lymphoid aggregates;NA;NA;NA;NA;NA;20;2;NA;NA;1;NA;NA
+10;7;S03-06011;855;Warty-Basaloid;Grade 3;0;NA;0;10;Intense inflammation;NA;NA;NA;NA;NA;12;0;5;0;1;NA;NA
+11;7;S03-06011;855;Warty-Basaloid;Grade 3;20;Cytoplasmic/Membraneous;20;10;Intense inflammation;NA;NA;NA;NA;NA;10;0;35;0;1;NA;NA
+1;8;S09-06067;855;Warty;Grade 3;10;Cytoplasmic/Membraneous;10;5;Intense inflammation;NA;NA;NA;NA;NA;0;0;22;0;0;NA;NA
+2;8;S09-06067;855;Warty;Grade 3;30;Cytoplasmic/Membraneous;40;40;Intense inflammation;NA;NA;NA;NA;NA;0;0;10;0;1;NA;NA
+3;8;S09-06067;855;Warty;Grade 3;5;Cytoplasmic/Membraneous;5;20;Intense inflammation;NA;NA;NA;NA;NA;0;0;8;0;1;NA;NA
+5;8;S03-01083;855;Warty;Grade 3;0;NA;0;20;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;0;0;1;NA;NA
+6;8;S03-01083;855;Warty;Grade 2;0;NA;0;NA;No inflammatory cells;NA;NA;NA;NA;NA;0;0;0;0;1;NA;NA
+7;8;S03-01083;855;Warty;Grade 3;0;NA;0;0;Rare inflammatory cells;NA;NA;NA;NA;NA;0;0;0;0;1;NA;NA
+9;8;S08-00833;855;Warty;Grade 2;25;Cytoplasmic/Membraneous;25;5;Lymphoid aggregates;NA;NA;NA;NA;NA;0;0;2;0;1;NA;NA
+10;8;S08-00833;855;Warty;NA;10;Cytoplasmic/Membraneous;10;5;Intense inflammation;NA;NA;NA;NA;NA;3;0;19;0;2;NA;NA
+11;8;S08-00833;855;Warty;Grade 3;10;Cytoplasmic/Membraneous;10;10;Intense inflammation;NA;NA;NA;NA;NA;2;0;48;0;1;NA;NA
+1;9;S02-06028;855;Basaloid;Grade 3;0;NA;0;1;Intense inflammation;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+2;9;S02-06028;855;Basaloid;Grade 3;0;NA;0;1;Intense inflammation;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+3;9;S02-06028;855;Basaloid;Grade 3;0;NA;0;0;Intense inflammation;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+5;9;S00-03778;855;Basaloid;Grade 3;15;Cytoplasmic/Membraneous;15;15;Intense inflammation;NA;NA;NA;NA;NA;7;0;40;0;30;NA;NA
+6;9;S00-03778;855;Basaloid;Grade 3;40;Cytoplasmic/Membraneous;50;20;Intense inflammation;NA;NA;NA;NA;NA;2;0;35;0;40;NA;NA
+7;9;S00-03778;855;Basaloid;Grade 3;10;Cytoplasmic/Membraneous;10;15;Intense inflammation;NA;NA;NA;NA;NA;2;0;26;0;50;NA;NA
+9;9;S06-03347;855;Warty-Basaloid;Grade 3;0;NA;0;20;Lymphoid aggregates;NA;NA;NA;NA;NA;15;2;21;0;3;NA;NA
+10;9;S06-03347;855;Warty-Basaloid;Grade 3;0;NA;0;10;Rare inflammatory cells;NA;NA;NA;NA;NA;7;1;10;0;1;NA;NA
+11;9;S06-03347;855;Warty-Basaloid;Grade 3;0;NA;0;10;Rare inflammatory cells;NA;NA;NA;NA;NA;4;0;12;0;1;NA;NA
