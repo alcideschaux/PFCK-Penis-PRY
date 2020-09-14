@@ -1,0 +1,40 @@
+# Measuring the impact of pathologic features of penile squamous cell carcinomas in PD-L1 expression: A machine learning approach
+
+Sofía Cañete-Portillo, Diana Taheri, Antonio L. Cubilla, George J. Netto, Alcides Chaux
+
+## INTRODUCTION
+Penile squamous cell carcinoma (SCC) is a rare tumor for which few effective treatment options are available for advanced disease. Considering the significant morbidity of the standard treatment, identifying novel molecular and immunotherapeutic targets is actively sought. Programmed death-ligand 1 (PD-L1) is a coinhibitory molecule that impairs the T-cell response by down-regulating T-cell proliferation and cytokine production. Tumor cells often up-regulate PD-L1 and thereby evade the host immune system. Recently, immune-checkpoint inhibitors have been proven effective against several tumor types, but data on PD-L1 expression in penile SCC is scant with only few reports from low-incidence areas (1–5). In this study, we evaluate PD-L1 expression in a large dataset of patients with penile SCC from a high-incidence area.
+
+## MATERIAL AND METHOD
+The current study was approved by the Institutional Review Board at the Johns Hopkins School of Medicine (Baltimore, MD).
+
+### Case selection and tissue microarray construction
+The present study includes tissue samples from 108 patients with invasive squamous cell carcinoma of the. Cases were selected based on availability of formalin-fixed, paraffin-embedded tissue blocks. From each case, 1–4 blocks were selected. Four tissue microarrays (TMA) were built at the Johns Hopkins TMA Lab Core (Baltimore, MD) using a previously described procedure (6). Three tissue cores of 1 mm each were obtained per block, giving a representation of 3–12 spots per case. Normal tissue from various anatomical sites were included as control tissue. A total of 528 TMA spots were evaluated from the 108 cases.
+
+### Morphologic evaluation
+Pathologic features were evaluated using H&E-stained tissue sections. The following pathologic features were evaluated:
+
+1. Histologic subtype: Histologic subtyping was carried out in whole tissue sections using the latest WHO criteria for classification of tumors of the urinary system and male genital organs (7).
+2. Histologic grade: Histologic grading was carried out spot by spot using previously published and validated criteria (8). Briefly, grade 1 tumors were composed of well differentiated cells, almost undistinguishable from normal squamous cells except for the present of minimal basal/parabasal cell atypia. Grade 3 tumors were composed of any proportion of anaplastic cells showing nuclear pleomorphism, coarse chromatin, prominent nucleolus, irregular and thickened nuclear membrane, abundant and atypical mitoses. Grade 2 tumors corresponded to those cases not fitting criteria for grade 1 or grade 3 (i.e., it was an exclusion category).
+3. Host response: Host response was evaluated spot by spot. Depending on the intensity of the inflammatory infiltrate observed, each spot was classified as showing no inflammation, mild inflammation, moderate inflammation, or intense inflammation.
+
+### Immunohistochemistry
+Immunohistochemical expression of PD-L1 was evaluated using a rabbit monoclonal anti–PD-L1 antibody (Cell Signaling, Boston). PD-L1 expression was evaluated in 2 cellular compartments, tumor cells and intratumoral lymphocytes. For tumor cells, we estimated percentages of positive tumor cells as well as their H-score, as previously described (1). For intratumoral lymphocytes, we estimated the percentage of positive tumor cells. Immunohistochemical evaluation was done spot by spot.
+
+## Data analysis
+Data was analyzed using Python 3.8 (Anaconda Distribution 2020.07, Anaconda, Inc., Austin, TX). Contingency tables were evaluated using the Pearson’s chi-square test. Correlation between numeric variables were evaluated using the Spearman’s rho coefficient. Numeric values were compared in groups using the Kruskal-Wallis test. A 2-tailed P < 0.01 was required for statistical significance. These statistical tests were implemented using the SciPy library (9).
+
+To determine the impact that the selected pathologic features had on marker expression, linear regression models were built using machine learning. This impact was evaluated using the explained variance regression score. Machine learning models were built using the Scikit-learn library (10).
+
+## REFERENCES
+1.         Davidsson S, Carlsson J, Giunchi F, Harlow A, Kirrander P, Rider J, et al. PD-L1 expression in men with penile cancer and its association with clinical outcomes. European Urology Oncology [Internet]. 2019 Mar 1 [cited 2020 Aug 27];2(2):214–21. Available from: https://pubmed.ncbi.nlm.nih.gov/31017099/
+2.         Ottenhof SR, Djajadiningrat RS, Thygesen HH, Jakobs PJ, Jóźwiak K, Heeren AM, et al. The prognostic value of immune factors in the tumor microenvironment of penile squamous cell carcinoma. Frontiers in Immunology [Internet]. 2018 Jun 11 [cited 2020 Aug 27];9:1253. Available from: https://pubmed.ncbi.nlm.nih.gov/29942303/
+3.         Ottenhof SR, Djajadiningrat RS, de Jong J, Thygesen HH, Horenblas S, Jordanova ES. Expression of programmed death ligand 1 in penile cancer is of prognostic value and associated with HPV status. Journal of Urology [Internet]. 2017 Mar 1 [cited 2020 Aug 27];197(3):690–7. Available from: https://pubmed.ncbi.nlm.nih.gov/27697578/
+4.         Cocks M, Taheri D, Ball MW, Bezerra SM, del Carmen Rodriguez M, Ricardo BFP, et al. Immune-checkpoint status in penile squamous cell carcinoma: A North American cohort. Human Pathology [Internet]. 2017 Jan [cited 2017 Apr 30];59:55–61. Available from: http://linkinghub.elsevier.com/retrieve/pii/S0046817716302118
+5.         Udager AM, Liu TY, Skala SL, Magers MJ, McDaniel AS, Spratt DE, et al. Frequent PD-L1 expression in primary and metastatic penile squamous cell carcinoma: Potential opportunities for immunotherapeutic approaches. Annals of Oncology [Internet]. 2016 Sep 1 [cited 2020 Aug 27];27(9):1706–12. Available from: https://pubmed.ncbi.nlm.nih.gov/27217541/
+6.         Fedor HL, de Marzo AM. Practical methods for tissue microarray construction. Methods in Molecular Medicine [Internet]. 2005 Jan [cited 2015 May 11];103:89–101. Available from: http://www.ncbi.nlm.nih.gov/pubmed/15542899
+7.         Cubilla AL, Amin MB, Ayala A, Ayala G, Chaux A, Corbishley C, et al. Malignant epithelial tumors. In: Moch H, Humphrey PA, Ulbright TM, Reuter VE, editors. WHO classification of tumours of the urinary system and male genital organs [Internet]. 4th ed. Lyon: International Agency for Research on Cancer (IARC); 2016 [cited 2018 Sep 4]. p. 262–76. Available from: https://www.ncbi.nlm.nih.gov/nlmcatalog/101715794
+8.         Chaux A. Clinicopathologic and outcome features of superficial high-grade and deep low-grade squamous cell carcinomas of the penis. SpringerPlus [Internet]. 2015 Jan 9 [cited 2015 Aug 30];4(1):248. Available from: http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=4467594&tool=pmcentrez&rendertype=abstract
+9.         Virtanen P, Gommers R, Oliphant TE, Haberland M, Reddy T, Cournapeau D, et al. SciPy 1.0: fundamental algorithms for scientific computing in Python. Nature Methods [Internet]. 2020 Mar 1 [cited 2020 Aug 29];17(3):261–72. Available from: https://doi.org/10.1038/s41592-019-0686-2
+10.        Pedregosa F, Michel V, Grisel O, Blondel M, Prettenhofer P, Weiss R, et al. Scikit-learn: Machine learning in Python. Journal of Machine Learning Research [Internet]. 2011 [cited 2020 Aug 29];12:2825–30. Available from: http://scikit-learn.sourceforge.net.
+ 
