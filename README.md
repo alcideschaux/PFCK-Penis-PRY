@@ -21,13 +21,13 @@ Pathologic features were evaluated using H&E-stained tissue sections. The follow
 ### Immunohistochemistry
 Immunohistochemical expression of PD-L1 was evaluated using a rabbit monoclonal anti–PD-L1 antibody (Cell Signaling, Boston). PD-L1 expression was evaluated in 2 cellular compartments, tumor cells and intratumoral lymphocytes. For tumor cells, we estimated percentages of positive tumor cells as well as their H-score, as previously described (1). For intratumoral lymphocytes, we estimated the percentage of positive tumor cells. Immunohistochemical evaluation was done spot by spot.
 
-## Data analysis
+### Data analysis
 Data was analyzed using Python 3.8 (Anaconda Distribution 2020.07, Anaconda, Inc., Austin, TX). Contingency tables were evaluated using the Pearson’s chi-square test. Correlation between numeric variables were evaluated using the Spearman’s rho coefficient. Numeric values were compared in groups using the Kruskal-Wallis test. A 2-tailed P < 0.01 was required for statistical significance. These statistical tests were implemented using the SciPy library (9).
 
 To determine the impact that the selected pathologic features had on marker expression, linear regression models were built using machine learning. This impact was evaluated using the explained variance regression score. Machine learning models were built using the Scikit-learn library (10).
 
 ## REFERENCES
-1.         Davidsson S, Carlsson J, Giunchi F, Harlow A, Kirrander P, Rider J, et al. PD-L1 expression in men with penile cancer and its association with clinical outcomes. European Urology Oncology [Internet]. 2019 Mar 1 [cited 2020 Aug 27];2(2):214–21. Available from: https://pubmed.ncbi.nlm.nih.gov/31017099/
+1.          Davidsson S, Carlsson J, Giunchi F, Harlow A, Kirrander P, Rider J, et al. PD-L1 expression in men with penile cancer and its association with clinical outcomes. European Urology Oncology [Internet]. 2019 Mar 1 [cited 2020 Aug 27];2(2):214–21. Available from: https://pubmed.ncbi.nlm.nih.gov/31017099/
 2.         Ottenhof SR, Djajadiningrat RS, Thygesen HH, Jakobs PJ, Jóźwiak K, Heeren AM, et al. The prognostic value of immune factors in the tumor microenvironment of penile squamous cell carcinoma. Frontiers in Immunology [Internet]. 2018 Jun 11 [cited 2020 Aug 27];9:1253. Available from: https://pubmed.ncbi.nlm.nih.gov/29942303/
 3.         Ottenhof SR, Djajadiningrat RS, de Jong J, Thygesen HH, Horenblas S, Jordanova ES. Expression of programmed death ligand 1 in penile cancer is of prognostic value and associated with HPV status. Journal of Urology [Internet]. 2017 Mar 1 [cited 2020 Aug 27];197(3):690–7. Available from: https://pubmed.ncbi.nlm.nih.gov/27697578/
 4.         Cocks M, Taheri D, Ball MW, Bezerra SM, del Carmen Rodriguez M, Ricardo BFP, et al. Immune-checkpoint status in penile squamous cell carcinoma: A North American cohort. Human Pathology [Internet]. 2017 Jan [cited 2017 Apr 30];59:55–61. Available from: http://linkinghub.elsevier.com/retrieve/pii/S0046817716302118
@@ -37,4 +37,3 @@ To determine the impact that the selected pathologic features had on marker expr
 8.         Chaux A. Clinicopathologic and outcome features of superficial high-grade and deep low-grade squamous cell carcinomas of the penis. SpringerPlus [Internet]. 2015 Jan 9 [cited 2015 Aug 30];4(1):248. Available from: http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=4467594&tool=pmcentrez&rendertype=abstract
 9.         Virtanen P, Gommers R, Oliphant TE, Haberland M, Reddy T, Cournapeau D, et al. SciPy 1.0: fundamental algorithms for scientific computing in Python. Nature Methods [Internet]. 2020 Mar 1 [cited 2020 Aug 29];17(3):261–72. Available from: https://doi.org/10.1038/s41592-019-0686-2
 10.        Pedregosa F, Michel V, Grisel O, Blondel M, Prettenhofer P, Weiss R, et al. Scikit-learn: Machine learning in Python. Journal of Machine Learning Research [Internet]. 2011 [cited 2020 Aug 29];12:2825–30. Available from: http://scikit-learn.sourceforge.net.
- 
