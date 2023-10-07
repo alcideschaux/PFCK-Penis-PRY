@@ -1,10 +1,10 @@
 # Impact of Pathologic Features on PD-L1 and CD8 Expression in Penile Squamous Cell Carcinoma: A Machine Learning Analysis
-Sofia Cañete-Portillo^1^, María del Carmen Rodriguez-Peña^1^, Antonio L. Cubilla^2^, George J. Netto^3^, Alcides Chaux^4^
+Sofia Cañete-Portillo (1), María del Carmen Rodriguez-Peña (1), Antonio L. Cubilla (2), George J. Netto (3), Alcides Chaux (4)
 
-^1^University of Alabama at Birmingham, Birmingham, AL, USA
-^2^ Instituto de Patología e Investigación, Asunción, Paraguay
-^3^ Perelman School of Medicine at the University of Pennsylvania, Philadelphia, PA, USA
-^4^ Universidad del Norte, Asunción, Paraguay
+(1) University of Alabama at Birmingham, Birmingham, AL, USA
+(2) Instituto de Patología e Investigación, Asunción, Paraguay
+(3) Perelman School of Medicine at the University of Pennsylvania, Philadelphia, PA, USA
+(4) Universidad del Norte, Asunción, Paraguay
 
 ## Introduction
 In 2021, the US recorded 2,210 new penile squamous cell carcinoma (SCC) cases, with mortality rates rising to 20%. Despite therapeutic advancements, the need to identify molecular and immunotherapeutic targets, especially PD-L1, became evident.
